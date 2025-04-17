@@ -1,0 +1,1082 @@
+[
+  {
+    "foodName": "Shorshe Ilish",
+    "country": "Bengali Food",
+    "rating": 4.0,
+    "purchased": 134,
+    "price": 14.03,
+    "description": "Hilsa fish cooked in mustard gravy.",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg/1200px-A_photo_of_popular_Bengali_dish_Sorshe_Ilish_served_traditionally.jpg"
+  },
+  {
+    "foodName": "Chingri Malai Curry",
+    "country": "Bengali Food",
+    "rating": 4.9,
+    "purchased": 136,
+    "price": 7.29,
+    "description": "Prawns simmered in coconut milk.",
+    "imgURL": "https://atanurrannagharrecipe.com/wp-content/uploads/2023/01/Chingri-Macher-Malai-Curry-Photo-02.jpg"
+  },
+  {
+    "foodName": "Panta Bhat",
+    "country": "Bengali Food",
+    "rating": 4.4,
+    "purchased": 167,
+    "price": 14.78,
+    "description": "Fermented rice served with onion and chili.",
+    "imgURL": "https://verygoodrecipes.com/images/blogs/food-recipes-cuisine-culture/panta-bhat-aar-shukno-daal-soaked-rice-and-dried-red-lentils.640x480.jpg"
+  },
+  {
+    "foodName": "Luchi Alur Dom",
+    "country": "Bengali Food",
+    "rating": 5.0,
+    "purchased": 94,
+    "price": 12.02,
+    "description": "Puffed bread with spicy potato curry.",
+    "imgURL": "https://tds-images-bn.thedailystar.net/sites/default/files/styles/big_202/public/images/2024/10/29/118888077_3188128074569751_8936506228572379687_n.jpg"
+  },
+  {
+    "foodName": "Macher Jhol",
+    "country": "Bengali Food",
+    "rating": 4.8,
+    "purchased": 87,
+    "price": 18.46,
+    "description": "Traditional fish curry with vegetables.",
+    "imgURL": "https://atanurrannagharrecipe.com/wp-content/uploads/2024/01/Rui-Macher-Jhol-Recipe-Atanur-Rannaghar.jpg"
+  },
+  {
+    "foodName": "Kosha Mangsho",
+    "country": "Bengali Food",
+    "rating": 4.5,
+    "purchased": 151,
+    "price": 18.85,
+    "description": "Slow-cooked spicy mutton curry.",
+    "imgURL": "https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/devshri-chatterji20180128134028494.jpeg"
+  },
+  {
+    "foodName": "Begun Bharta",
+    "country": "Bengali Food",
+    "rating": 4.9,
+    "purchased": 180,
+    "price": 17.93,
+    "description": "Mashed eggplant with mustard oil.",
+    "imgURL": "https://www.kuchpakrahahai.in/wp-content/uploads/2016/05/Baingan-Bharta-Recipe.jpg"
+  },
+  {
+    "foodName": "Patishapta",
+    "country": "Bengali Food",
+    "rating": 4.2,
+    "purchased": 119,
+    "price": 7.3,
+    "description": "Rice crepes with coconut filling.",
+    "imgURL": "https://cookishcreation.com/wp-content/uploads/2021/11/Patishapta-Pitha-Cookish-Creation.jpg"
+  },
+  {
+    "foodName": "Dhokar Dalna",
+    "country": "Bengali Food",
+    "rating": 4.3,
+    "purchased": 195,
+    "price": 9.73,
+    "description": "Lentil cakes in tomato-based gravy.",
+    "imgURL": "https://rumkisgoldenspoon.com/wp-content/uploads/2022/09/Dhokar-dalna.jpg"
+  },
+  {
+    "foodName": "Shutki Bhuna",
+    "country": "Bengali Food",
+    "rating": 4.6,
+    "purchased": 151,
+    "price": 10.31,
+    "description": "Dry fish cooked with spices.",
+    "imgURL": "https://www.allbdrecipe.com/Images/Article/Img_2020105_135132_945.jpg"
+  },
+  {
+    "foodName": "Kung Pao Chicken",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 129,
+    "price": 9.03,
+    "description": "Spicy stir-fried chicken with peanuts.",
+    "imgURL": "https://www.allrecipes.com/thmb/77x4rJvy5T1z_Iyc52NK7pDOkJE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-9027-kung-pao-chicken-ddmfs-4x3-hero-9a10c2277f65472a941d932313caab86.jpg"
+  },
+  {
+    "foodName": "Sweet and Sour Beef",
+    "country": "Chinese Food",
+    "rating": 4.5,
+    "purchased": 141,
+    "price": 19.38,
+    "description": "Beef in a sweet tangy sauce.",
+    "imgURL": "https://embed.widencdn.net/img/beef/iuepfch8uy/1120x840px/sweet-sour-beef-stir-fry.tif?keep=c&u=7fueml"
+  },
+  {
+    "foodName": "Spring Rolls",
+    "country": "Chinese Food",
+    "rating": 5.0,
+    "purchased": 124,
+    "price": 16.1,
+    "description": "Crispy rolls filled with vegetables.",
+    "imgURL": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/01/Spring-Roll-Recipe-500x375.jpg"
+  },
+  {
+    "foodName": "Chow Mein",
+    "country": "Chinese Food",
+    "rating": 4.2,
+    "purchased": 73,
+    "price": 6.11,
+    "description": "Stir-fried noodles with veggies.",
+    "imgURL": "https://cdn.zeptonow.com/production///tr:w-600,ar-100-100,pr-true,f-auto,q-80/web/recipes/chow-mein.png"
+  },
+  {
+    "foodName": "Dumplings",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 52,
+    "price": 7.6,
+    "description": "Steamed or fried filled dough.",
+    "imgURL": "https://static01.nyt.com/images/2025/01/29/multimedia/27Dumpling-week-chocolate-cwvl/27Dumpling-week-chocolate-cwvl-threeByTwoMediumAt2X.jpg"
+  },
+  {
+    "foodName": "Mapo Tofu",
+    "country": "Chinese Food",
+    "rating": 4.8,
+    "purchased": 186,
+    "price": 11.59,
+    "description": "Spicy tofu with minced meat.",
+    "imgURL": "https://www.madewithlau.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2r0kdewr%2Fproduction%2Fb8e5921d48655d4f4752fc4de9de6da19112d0b4-1000x667.jpg&w=3840&q=75"
+  },
+  {
+    "foodName": "Wonton Soup",
+    "country": "Chinese Food",
+    "rating": 4.6,
+    "purchased": 161,
+    "price": 18.79,
+    "description": "Soup with dumplings in broth.",
+    "imgURL": "https://redhousespice.com/wp-content/uploads/2022/07/chinese-pork-wonton-in-soup.jpg"
+  },
+  {
+    "foodName": "Char Siu",
+    "country": "Chinese Food",
+    "rating": 4.3,
+    "purchased": 95,
+    "price": 16.14,
+    "description": "Barbecued pork with sweet glaze.",
+    "imgURL": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-11.jpg"
+  },
+  {
+    "foodName": "Peking Duck",
+    "country": "Chinese Food",
+    "rating": 4.9,
+    "purchased": 66,
+    "price": 13.67,
+    "description": "Roast duck with crispy skin.",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-Dfg6eSNwwoCaT2xHu1T87IBILjLa6zv6_jOvWR6Xg0yYrnm1z7Dw6ooHYkyxDho9t8&usqp=CAU"
+  },
+  {
+    "foodName": "Szechuan Beef",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 94,
+    "price": 19.03,
+    "description": "Spicy beef with garlic and chili.",
+    "imgURL": "https://embed.widencdn.net/img/beef/xu6owwuuep/exact/szechuan-beef-stir-fry.tif?keep=c&u=7fueml"
+  },
+  {
+    "foodName": "Tacos al Pastor",
+    "country": "Mexican Food",
+    "rating": 4.3,
+    "purchased": 76,
+    "price": 15.36,
+    "description": "Tacos with marinated pork and pineapple.",
+    "imgURL": "https://images.cookforyourlife.org/wp-content/uploads/2018/08/Shrimp-Tacos.jpg"
+  },
+  {
+    "foodName": "Enchiladas",
+    "country": "Mexican Food",
+    "rating": 4.5,
+    "purchased": 84,
+    "price": 5.08,
+    "description": "Tortillas rolled around a filling.",
+    "imgURL": "https://www.everythingerica.com/wp-content/uploads/2014/07/Enchiladas.jpg.jpg"
+  },
+  {
+    "foodName": "Guacamole",
+    "country": "Mexican Food",
+    "rating": 4.4,
+    "purchased": 120,
+    "price": 16.79,
+    "description": "Mashed avocado with lime and salt.",
+    "imgURL": "https://www.giallozafferano.com/images/255-25549/Guacamole_1200x800.jpg"
+  },
+  {
+    "foodName": "Quesadillas",
+    "country": "Mexican Food",
+    "rating": 4.8,
+    "purchased": 187,
+    "price": 6.45,
+    "description": "Grilled tortilla with melted cheese.",
+    "imgURL": "https://www.daisybrand.com/wp-content/uploads/2019/12/CHICKEN-FAJITA-QUESADILLAS-770x628.jpg"
+  },
+  {
+    "foodName": "Churros",
+    "country": "Mexican Food",
+    "rating": 4.6,
+    "purchased": 79,
+    "price": 13.52,
+    "description": "Fried dough pastry rolled in sugar.",
+    "imgURL": "https://www.allrecipes.com/thmb/qq9s8jlKplKUDEo3Gtk15EAJpHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-recipe-24700-churros-VAT-hero-03-4x3-a7f6af1860934b0385f84ab9f13f2613.jpg"
+  },
+  {
+    "foodName": "Tamales",
+    "country": "Mexican Food",
+    "rating": 4.3,
+    "purchased": 151,
+    "price": 18.69,
+    "description": "Corn dough filled with meat and steamed.",
+    "imgURL": "https://images.getrecipekit.com/20221222000427-221004mas_shot_04_0207-20recipe.jpg?class=16x9"
+  },
+  {
+    "foodName": "Burrito",
+    "country": "Mexican Food",
+    "rating": 4.4,
+    "purchased": 154,
+    "price": 5.84,
+    "description": "Tortilla wrapped around various fillings.",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/6/60/Burrito.JPG"
+  },
+  {
+    "foodName": "Pozole",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 138,
+    "price": 8.06,
+    "description": "Traditional soup with hominy and meat.",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7GpdQ9OPSmiVhwcHO5UltlA5vuBcqk_FIA&s"
+  },
+  {
+    "foodName": "Sopes",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 117,
+    "price": 10.03,
+    "description": "Thick corn cakes with toppings.",
+    "imgURL": "https://hips.hearstapps.com/hmg-prod/images/delish-230307-sopes-328-rv-index-6418dad1de1ec.jpg?crop=0.666537342386033xw:1xh;center,top&resize=1200:*"
+  },
+  {
+    "foodName": "Elote",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 92,
+    "price": 16.23,
+    "description": "Grilled Mexican street corn.",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZLYvWEDo45Y2XObxSEwJuy7W1KAg6FFsmA&s"
+  },
+  {
+    "foodName": "Cheeseburger",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 113,
+    "price": 19.19,
+    "description": "Beef burger with melted cheese.",
+    "imgURL": "https://californiaavocado.com/wp-content/uploads/2021/03/Classic-Calif-Avocado-Cheeseburger-with-Carmelized-Onions-CAC-001-cropped-scaled.jpg"
+  },
+  {
+    "foodName": "Hot Dog",
+    "country": "American Food",
+    "rating": 4.7,
+    "purchased": 141,
+    "price": 11.81,
+    "description": "Grilled sausage in a bun.",
+    "imgURL": "https://potatorolls.com/wp-content/uploads/2020/10/Cheeseburger-Hot-Dog2.jpg"
+  },
+  {
+    "foodName": "Fried Chicken",
+    "country": "American Food",
+    "rating": 4.3,
+    "purchased": 129,
+    "price": 11.96,
+    "description": "Crispy seasoned fried chicken.",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzXpzSU6VdWVZoPO6oQoJPn7E-lRKvdL_iQ&s"
+  },
+  {
+    "foodName": "Mac and Cheese",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 58,
+    "price": 15.52,
+    "description": "Pasta in creamy cheese sauce.",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR5zuT9ox1giBfE3ItxizHHFTVGInSrbxGwg&s"
+  },
+  {
+    "foodName": "BBQ Ribs",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 159,
+    "price": 6.01,
+    "description": "Barbecued pork ribs with smoky sauce.",
+    "imgURL": "https://howtobbqright.com/wp-content/uploads/2024/06/gasgrillribs640.jpg"
+  },
+  {
+    "foodName": "Chicken Wings",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 50,
+    "price": 11.57,
+    "description": "Spicy deep-fried chicken wings.",
+    "imgURL": "https://images.services.kitchenstories.io/aJxQgvoobwagQnzdDEHXnyJdzdA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R13-chicken-wings-title-photo.jpg"
+  },
+  {
+    "foodName": "Apple Pie",
+    "country": "American Food",
+    "rating": 4.0,
+    "purchased": 90,
+    "price": 12.19,
+    "description": "Classic dessert with apple filling.",
+    "imgURL": "https://www.southernliving.com/thmb/bbDY1d_ySIrCFcq8WNBkR-3x6pU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2589601_Mailb_Mailbox_Apple_Pie_003-da802ff7a8984b2fa9aa0535997ab246.jpg"
+  },
+  {
+    "foodName": "Clam Chowder",
+    "country": "American Food",
+    "rating": 4.4,
+    "purchased": 157,
+    "price": 13.36,
+    "description": "Creamy soup with clams and potatoes.",
+    "imgURL": "https://thefeatherednester.com/wp-content/uploads/2025/08/San-Francisco-Clam-Chowder-square.jpg"
+  },
+  {
+    "foodName": "Meatloaf",
+    "country": "American Food",
+    "rating": 4.9,
+    "purchased": 68,
+    "price": 18.61,
+    "description": "Ground meat baked as a loaf.",
+    "imgURL": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2024/01/Meatloaf-main.jpg"
+  },
+  {
+    "foodName": "Pancakes",
+    "country": "American Food",
+    "rating": 4.8,
+    "purchased": 197,
+    "price": 18.42,
+    "description": "Fluffy cakes served with syrup.",
+    "imgURL": "https://hips.hearstapps.com/hmg-prod/images/best-homemade-pancakes-index-640775a2dbad8.jpg?crop=0.8890503582601677xw:1xh;center,top&resize=1200"
+  },
+  {
+    "foodName": "Shorshe Ilish",
+    "country": "Bengali Food",
+    "rating": 4.0,
+    "purchased": 134,
+    "price": 14.03,
+    "description": "Hilsa fish cooked in mustard gravy.",
+    "imgURL": "https://example.com/images/shorshe_ilish_41.jpg"
+  },
+  {
+    "foodName": "Chingri Malai Curry",
+    "country": "Bengali Food",
+    "rating": 4.9,
+    "purchased": 136,
+    "price": 7.29,
+    "description": "Prawns simmered in coconut milk.",
+    "imgURL": "https://example.com/images/chingri_malai_curry_42.jpg"
+  },
+  {
+    "foodName": "Panta Bhat",
+    "country": "Bengali Food",
+    "rating": 4.4,
+    "purchased": 167,
+    "price": 14.78,
+    "description": "Fermented rice served with onion and chili.",
+    "imgURL": "https://example.com/images/panta_bhat_43.jpg"
+  },
+  {
+    "foodName": "Luchi Alur Dom",
+    "country": "Bengali Food",
+    "rating": 5.0,
+    "purchased": 94,
+    "price": 12.02,
+    "description": "Puffed bread with spicy potato curry.",
+    "imgURL": "https://example.com/images/luchi_alur_dom_44.jpg"
+  },
+  {
+    "foodName": "Macher Jhol",
+    "country": "Bengali Food",
+    "rating": 4.8,
+    "purchased": 87,
+    "price": 18.46,
+    "description": "Traditional fish curry with vegetables.",
+    "imgURL": "https://example.com/images/macher_jhol_45.jpg"
+  },
+  {
+    "foodName": "Kosha Mangsho",
+    "country": "Bengali Food",
+    "rating": 4.5,
+    "purchased": 151,
+    "price": 18.85,
+    "description": "Slow-cooked spicy mutton curry.",
+    "imgURL": "https://example.com/images/kosha_mangsho_46.jpg"
+  },
+  {
+    "foodName": "Begun Bharta",
+    "country": "Bengali Food",
+    "rating": 4.9,
+    "purchased": 180,
+    "price": 17.93,
+    "description": "Mashed eggplant with mustard oil.",
+    "imgURL": "https://example.com/images/begun_bharta_47.jpg"
+  },
+  {
+    "foodName": "Patishapta",
+    "country": "Bengali Food",
+    "rating": 4.2,
+    "purchased": 119,
+    "price": 7.3,
+    "description": "Rice crepes with coconut filling.",
+    "imgURL": "https://example.com/images/patishapta_48.jpg"
+  },
+  {
+    "foodName": "Dhokar Dalna",
+    "country": "Bengali Food",
+    "rating": 4.3,
+    "purchased": 195,
+    "price": 9.73,
+    "description": "Lentil cakes in tomato-based gravy.",
+    "imgURL": "https://example.com/images/dhokar_dalna_49.jpg"
+  },
+  {
+    "foodName": "Shutki Bhuna",
+    "country": "Bengali Food",
+    "rating": 4.6,
+    "purchased": 151,
+    "price": 10.31,
+    "description": "Dry fish cooked with spices.",
+    "imgURL": "https://example.com/images/shutki_bhuna_50.jpg"
+  },
+  {
+    "foodName": "Kung Pao Chicken",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 129,
+    "price": 9.03,
+    "description": "Spicy stir-fried chicken with peanuts.",
+    "imgURL": "https://example.com/images/kung_pao_chicken_51.jpg"
+  },
+  {
+    "foodName": "Sweet and Sour Pork",
+    "country": "Chinese Food",
+    "rating": 4.5,
+    "purchased": 141,
+    "price": 19.38,
+    "description": "Pork in a sweet tangy sauce.",
+    "imgURL": "https://example.com/images/sweet_and_sour_pork_52.jpg"
+  },
+  {
+    "foodName": "Spring Rolls",
+    "country": "Chinese Food",
+    "rating": 5.0,
+    "purchased": 124,
+    "price": 16.1,
+    "description": "Crispy rolls filled with vegetables.",
+    "imgURL": "https://example.com/images/spring_rolls_53.jpg"
+  },
+  {
+    "foodName": "Chow Mein",
+    "country": "Chinese Food",
+    "rating": 4.2,
+    "purchased": 73,
+    "price": 6.11,
+    "description": "Stir-fried noodles with veggies.",
+    "imgURL": "https://example.com/images/chow_mein_54.jpg"
+  },
+  {
+    "foodName": "Dumplings",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 52,
+    "price": 7.6,
+    "description": "Steamed or fried filled dough.",
+    "imgURL": "https://example.com/images/dumplings_55.jpg"
+  },
+  {
+    "foodName": "Mapo Tofu",
+    "country": "Chinese Food",
+    "rating": 4.8,
+    "purchased": 186,
+    "price": 11.59,
+    "description": "Spicy tofu with minced meat.",
+    "imgURL": "https://example.com/images/mapo_tofu_56.jpg"
+  },
+  {
+    "foodName": "Wonton Soup",
+    "country": "Chinese Food",
+    "rating": 4.6,
+    "purchased": 161,
+    "price": 18.79,
+    "description": "Soup with dumplings in broth.",
+    "imgURL": "https://example.com/images/wonton_soup_57.jpg"
+  },
+  {
+    "foodName": "Char Siu",
+    "country": "Chinese Food",
+    "rating": 4.3,
+    "purchased": 95,
+    "price": 16.14,
+    "description": "Barbecued pork with sweet glaze.",
+    "imgURL": "https://example.com/images/char_siu_58.jpg"
+  },
+  {
+    "foodName": "Peking Duck",
+    "country": "Chinese Food",
+    "rating": 4.9,
+    "purchased": 66,
+    "price": 13.67,
+    "description": "Roast duck with crispy skin.",
+    "imgURL": "https://example.com/images/peking_duck_59.jpg"
+  },
+  {
+    "foodName": "Szechuan Beef",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 94,
+    "price": 19.03,
+    "description": "Spicy beef with garlic and chili.",
+    "imgURL": "https://example.com/images/szechuan_beef_60.jpg"
+  },
+  {
+    "foodName": "Tacos al Pastor",
+    "country": "Mexican Food",
+    "rating": 4.3,
+    "purchased": 76,
+    "price": 15.36,
+    "description": "Tacos with marinated pork and pineapple.",
+    "imgURL": "https://example.com/images/tacos_al_pastor_61.jpg"
+  },
+  {
+    "foodName": "Enchiladas",
+    "country": "Mexican Food",
+    "rating": 4.5,
+    "purchased": 84,
+    "price": 5.08,
+    "description": "Tortillas rolled around a filling.",
+    "imgURL": "https://example.com/images/enchiladas_62.jpg"
+  },
+  {
+    "foodName": "Guacamole",
+    "country": "Mexican Food",
+    "rating": 4.4,
+    "purchased": 120,
+    "price": 16.79,
+    "description": "Mashed avocado with lime and salt.",
+    "imgURL": "https://example.com/images/guacamole_63.jpg"
+  },
+  {
+    "foodName": "Quesadillas",
+    "country": "Mexican Food",
+    "rating": 4.8,
+    "purchased": 187,
+    "price": 6.45,
+    "description": "Grilled tortilla with melted cheese.",
+    "imgURL": "https://example.com/images/quesadillas_64.jpg"
+  },
+  {
+    "foodName": "Churros",
+    "country": "Mexican Food",
+    "rating": 4.6,
+    "purchased": 79,
+    "price": 13.52,
+    "description": "Fried dough pastry rolled in sugar.",
+    "imgURL": "https://example.com/images/churros_65.jpg"
+  },
+  {
+    "foodName": "Tamales",
+    "country": "Mexican Food",
+    "rating": 4.3,
+    "purchased": 151,
+    "price": 18.69,
+    "description": "Corn dough filled with meat and steamed.",
+    "imgURL": "https://example.com/images/tamales_66.jpg"
+  },
+  {
+    "foodName": "Burrito",
+    "country": "Mexican Food",
+    "rating": 4.4,
+    "purchased": 154,
+    "price": 5.84,
+    "description": "Tortilla wrapped around various fillings.",
+    "imgURL": "https://example.com/images/burrito_67.jpg"
+  },
+  {
+    "foodName": "Pozole",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 138,
+    "price": 8.06,
+    "description": "Traditional soup with hominy and meat.",
+    "imgURL": "https://example.com/images/pozole_68.jpg"
+  },
+  {
+    "foodName": "Sopes",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 117,
+    "price": 10.03,
+    "description": "Thick corn cakes with toppings.",
+    "imgURL": "https://example.com/images/sopes_69.jpg"
+  },
+  {
+    "foodName": "Elote",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 92,
+    "price": 16.23,
+    "description": "Grilled Mexican street corn.",
+    "imgURL": "https://example.com/images/elote_70.jpg"
+  },
+  {
+    "foodName": "Cheeseburger",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 113,
+    "price": 19.19,
+    "description": "Beef burger with melted cheese.",
+    "imgURL": "https://example.com/images/cheeseburger_71.jpg"
+  },
+  {
+    "foodName": "Hot Dog",
+    "country": "American Food",
+    "rating": 4.7,
+    "purchased": 141,
+    "price": 11.81,
+    "description": "Grilled sausage in a bun.",
+    "imgURL": "https://example.com/images/hot_dog_72.jpg"
+  },
+  {
+    "foodName": "Fried Chicken",
+    "country": "American Food",
+    "rating": 4.3,
+    "purchased": 129,
+    "price": 11.96,
+    "description": "Crispy seasoned fried chicken.",
+    "imgURL": "https://example.com/images/fried_chicken_73.jpg"
+  },
+  {
+    "foodName": "Mac and Cheese",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 58,
+    "price": 15.52,
+    "description": "Pasta in creamy cheese sauce.",
+    "imgURL": "https://example.com/images/mac_and_cheese_74.jpg"
+  },
+  {
+    "foodName": "BBQ Ribs",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 159,
+    "price": 6.01,
+    "description": "Barbecued pork ribs with smoky sauce.",
+    "imgURL": "https://example.com/images/bbq_ribs_75.jpg"
+  },
+  {
+    "foodName": "Chicken Wings",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 50,
+    "price": 11.57,
+    "description": "Spicy deep-fried chicken wings.",
+    "imgURL": "https://example.com/images/chicken_wings_76.jpg"
+  },
+  {
+    "foodName": "Apple Pie",
+    "country": "American Food",
+    "rating": 4.0,
+    "purchased": 90,
+    "price": 12.19,
+    "description": "Classic dessert with apple filling.",
+    "imgURL": "https://example.com/images/apple_pie_77.jpg"
+  },
+  {
+    "foodName": "Clam Chowder",
+    "country": "American Food",
+    "rating": 4.4,
+    "purchased": 157,
+    "price": 13.36,
+    "description": "Creamy soup with clams and potatoes.",
+    "imgURL": "https://example.com/images/clam_chowder_78.jpg"
+  },
+  {
+    "foodName": "Meatloaf",
+    "country": "American Food",
+    "rating": 4.9,
+    "purchased": 68,
+    "price": 18.61,
+    "description": "Ground meat baked as a loaf.",
+    "imgURL": "https://example.com/images/meatloaf_79.jpg"
+  },
+  {
+    "foodName": "Pancakes",
+    "country": "American Food",
+    "rating": 4.8,
+    "purchased": 197,
+    "price": 18.42,
+    "description": "Fluffy cakes served with syrup.",
+    "imgURL": "https://example.com/images/pancakes_80.jpg"
+  },
+  {
+    "foodName": "Shorshe Ilish",
+    "country": "Bengali Food",
+    "rating": 4.0,
+    "purchased": 134,
+    "price": 14.03,
+    "description": "Hilsa fish cooked in mustard gravy.",
+    "imgURL": "https://example.com/images/shorshe_ilish_81.jpg"
+  },
+  {
+    "foodName": "Chingri Malai Curry",
+    "country": "Bengali Food",
+    "rating": 4.9,
+    "purchased": 136,
+    "price": 7.29,
+    "description": "Prawns simmered in coconut milk.",
+    "imgURL": "https://example.com/images/chingri_malai_curry_82.jpg"
+  },
+  {
+    "foodName": "Panta Bhat",
+    "country": "Bengali Food",
+    "rating": 4.4,
+    "purchased": 167,
+    "price": 14.78,
+    "description": "Fermented rice served with onion and chili.",
+    "imgURL": "https://example.com/images/panta_bhat_83.jpg"
+  },
+  {
+    "foodName": "Luchi Alur Dom",
+    "country": "Bengali Food",
+    "rating": 5.0,
+    "purchased": 94,
+    "price": 12.02,
+    "description": "Puffed bread with spicy potato curry.",
+    "imgURL": "https://example.com/images/luchi_alur_dom_84.jpg"
+  },
+  {
+    "foodName": "Macher Jhol",
+    "country": "Bengali Food",
+    "rating": 4.8,
+    "purchased": 87,
+    "price": 18.46,
+    "description": "Traditional fish curry with vegetables.",
+    "imgURL": "https://example.com/images/macher_jhol_85.jpg"
+  },
+  {
+    "foodName": "Kosha Mangsho",
+    "country": "Bengali Food",
+    "rating": 4.5,
+    "purchased": 151,
+    "price": 18.85,
+    "description": "Slow-cooked spicy mutton curry.",
+    "imgURL": "https://example.com/images/kosha_mangsho_86.jpg"
+  },
+  {
+    "foodName": "Begun Bharta",
+    "country": "Bengali Food",
+    "rating": 4.9,
+    "purchased": 180,
+    "price": 17.93,
+    "description": "Mashed eggplant with mustard oil.",
+    "imgURL": "https://example.com/images/begun_bharta_87.jpg"
+  },
+  {
+    "foodName": "Patishapta",
+    "country": "Bengali Food",
+    "rating": 4.2,
+    "purchased": 119,
+    "price": 7.3,
+    "description": "Rice crepes with coconut filling.",
+    "imgURL": "https://example.com/images/patishapta_88.jpg"
+  },
+  {
+    "foodName": "Dhokar Dalna",
+    "country": "Bengali Food",
+    "rating": 4.3,
+    "purchased": 195,
+    "price": 9.73,
+    "description": "Lentil cakes in tomato-based gravy.",
+    "imgURL": "https://example.com/images/dhokar_dalna_89.jpg"
+  },
+  {
+    "foodName": "Shutki Bhuna",
+    "country": "Bengali Food",
+    "rating": 4.6,
+    "purchased": 151,
+    "price": 10.31,
+    "description": "Dry fish cooked with spices.",
+    "imgURL": "https://example.com/images/shutki_bhuna_90.jpg"
+  },
+  {
+    "foodName": "Kung Pao Chicken",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 129,
+    "price": 9.03,
+    "description": "Spicy stir-fried chicken with peanuts.",
+    "imgURL": "https://example.com/images/kung_pao_chicken_91.jpg"
+  },
+  {
+    "foodName": "Sweet and Sour Pork",
+    "country": "Chinese Food",
+    "rating": 4.5,
+    "purchased": 141,
+    "price": 19.38,
+    "description": "Pork in a sweet tangy sauce.",
+    "imgURL": "https://example.com/images/sweet_and_sour_pork_92.jpg"
+  },
+  {
+    "foodName": "Spring Rolls",
+    "country": "Chinese Food",
+    "rating": 5.0,
+    "purchased": 124,
+    "price": 16.1,
+    "description": "Crispy rolls filled with vegetables.",
+    "imgURL": "https://example.com/images/spring_rolls_93.jpg"
+  },
+  {
+    "foodName": "Chow Mein",
+    "country": "Chinese Food",
+    "rating": 4.2,
+    "purchased": 73,
+    "price": 6.11,
+    "description": "Stir-fried noodles with veggies.",
+    "imgURL": "https://example.com/images/chow_mein_94.jpg"
+  },
+  {
+    "foodName": "Dumplings",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 52,
+    "price": 7.6,
+    "description": "Steamed or fried filled dough.",
+    "imgURL": "https://example.com/images/dumplings_95.jpg"
+  },
+  {
+    "foodName": "Mapo Tofu",
+    "country": "Chinese Food",
+    "rating": 4.8,
+    "purchased": 186,
+    "price": 11.59,
+    "description": "Spicy tofu with minced meat.",
+    "imgURL": "https://example.com/images/mapo_tofu_96.jpg"
+  },
+  {
+    "foodName": "Wonton Soup",
+    "country": "Chinese Food",
+    "rating": 4.6,
+    "purchased": 161,
+    "price": 18.79,
+    "description": "Soup with dumplings in broth.",
+    "imgURL": "https://example.com/images/wonton_soup_97.jpg"
+  },
+  {
+    "foodName": "Char Siu",
+    "country": "Chinese Food",
+    "rating": 4.3,
+    "purchased": 95,
+    "price": 16.14,
+    "description": "Barbecued pork with sweet glaze.",
+    "imgURL": "https://example.com/images/char_siu_98.jpg"
+  },
+  {
+    "foodName": "Peking Duck",
+    "country": "Chinese Food",
+    "rating": 4.9,
+    "purchased": 66,
+    "price": 13.67,
+    "description": "Roast duck with crispy skin.",
+    "imgURL": "https://example.com/images/peking_duck_99.jpg"
+  },
+  {
+    "foodName": "Szechuan Beef",
+    "country": "Chinese Food",
+    "rating": 4.1,
+    "purchased": 94,
+    "price": 19.03,
+    "description": "Spicy beef with garlic and chili.",
+    "imgURL": "https://example.com/images/szechuan_beef_100.jpg"
+  },
+  {
+    "foodName": "Tacos al Pastor",
+    "country": "Mexican Food",
+    "rating": 4.3,
+    "purchased": 76,
+    "price": 15.36,
+    "description": "Tacos with marinated pork and pineapple.",
+    "imgURL": "https://example.com/images/tacos_al_pastor_101.jpg"
+  },
+  {
+    "foodName": "Enchiladas",
+    "country": "Mexican Food",
+    "rating": 4.5,
+    "purchased": 84,
+    "price": 5.08,
+    "description": "Tortillas rolled around a filling.",
+    "imgURL": "https://example.com/images/enchiladas_102.jpg"
+  },
+  {
+    "foodName": "Guacamole",
+    "country": "Mexican Food",
+    "rating": 4.4,
+    "purchased": 120,
+    "price": 16.79,
+    "description": "Mashed avocado with lime and salt.",
+    "imgURL": "https://example.com/images/guacamole_103.jpg"
+  },
+  {
+    "foodName": "Quesadillas",
+    "country": "Mexican Food",
+    "rating": 4.8,
+    "purchased": 187,
+    "price": 6.45,
+    "description": "Grilled tortilla with melted cheese.",
+    "imgURL": "https://example.com/images/quesadillas_104.jpg"
+  },
+  {
+    "foodName": "Churros",
+    "country": "Mexican Food",
+    "rating": 4.6,
+    "purchased": 79,
+    "price": 13.52,
+    "description": "Fried dough pastry rolled in sugar.",
+    "imgURL": "https://example.com/images/churros_105.jpg"
+  },
+  {
+    "foodName": "Tamales",
+    "country": "Mexican Food",
+    "rating": 4.3,
+    "purchased": 151,
+    "price": 18.69,
+    "description": "Corn dough filled with meat and steamed.",
+    "imgURL": "https://example.com/images/tamales_106.jpg"
+  },
+  {
+    "foodName": "Burrito",
+    "country": "Mexican Food",
+    "rating": 4.4,
+    "purchased": 154,
+    "price": 5.84,
+    "description": "Tortilla wrapped around various fillings.",
+    "imgURL": "https://example.com/images/burrito_107.jpg"
+  },
+  {
+    "foodName": "Pozole",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 138,
+    "price": 8.06,
+    "description": "Traditional soup with hominy and meat.",
+    "imgURL": "https://example.com/images/pozole_108.jpg"
+  },
+  {
+    "foodName": "Sopes",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 117,
+    "price": 10.03,
+    "description": "Thick corn cakes with toppings.",
+    "imgURL": "https://example.com/images/sopes_109.jpg"
+  },
+  {
+    "foodName": "Elote",
+    "country": "Mexican Food",
+    "rating": 4.1,
+    "purchased": 92,
+    "price": 16.23,
+    "description": "Grilled Mexican street corn.",
+    "imgURL": "https://example.com/images/elote_110.jpg"
+  },
+  {
+    "foodName": "Cheeseburger",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 113,
+    "price": 19.19,
+    "description": "Beef burger with melted cheese.",
+    "imgURL": "https://example.com/images/cheeseburger_111.jpg"
+  },
+  {
+    "foodName": "Hot Dog",
+    "country": "American Food",
+    "rating": 4.7,
+    "purchased": 141,
+    "price": 11.81,
+    "description": "Grilled sausage in a bun.",
+    "imgURL": "https://example.com/images/hot_dog_112.jpg"
+  },
+  {
+    "foodName": "Fried Chicken",
+    "country": "American Food",
+    "rating": 4.3,
+    "purchased": 129,
+    "price": 11.96,
+    "description": "Crispy seasoned fried chicken.",
+    "imgURL": "https://example.com/images/fried_chicken_113.jpg"
+  },
+  {
+    "foodName": "Mac and Cheese",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 58,
+    "price": 15.52,
+    "description": "Pasta in creamy cheese sauce.",
+    "imgURL": "https://example.com/images/mac_and_cheese_114.jpg"
+  },
+  {
+    "foodName": "BBQ Ribs",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 159,
+    "price": 6.01,
+    "description": "Barbecued pork ribs with smoky sauce.",
+    "imgURL": "https://example.com/images/bbq_ribs_115.jpg"
+  },
+  {
+    "foodName": "Chicken Wings",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 50,
+    "price": 11.57,
+    "description": "Spicy deep-fried chicken wings.",
+    "imgURL": "https://example.com/images/chicken_wings_116.jpg"
+  },
+  {
+    "foodName": "Apple Pie",
+    "country": "American Food",
+    "rating": 4.0,
+    "purchased": 90,
+    "price": 12.19,
+    "description": "Classic dessert with apple filling.",
+    "imgURL": "https://example.com/images/apple_pie_117.jpg"
+  },
+  {
+    "foodName": "Clam Chowder",
+    "country": "American Food",
+    "rating": 4.4,
+    "purchased": 157,
+    "price": 13.36,
+    "description": "Creamy soup with clams and potatoes.",
+    "imgURL": "https://example.com/images/clam_chowder_118.jpg"
+  },
+  {
+    "foodName": "Meatloaf",
+    "country": "American Food",
+    "rating": 4.9,
+    "purchased": 68,
+    "price": 18.61,
+    "description": "Ground meat baked as a loaf.",
+    "imgURL": "https://example.com/images/meatloaf_119.jpg"
+  },
+  {
+    "foodName": "Pancakes",
+    "country": "American Food",
+    "rating": 4.8,
+    "purchased": 197,
+    "price": 18.42,
+    "description": "Fluffy cakes served with syrup.",
+    "imgURL": "https://example.com/images/pancakes_120.jpg"
+  }
+]

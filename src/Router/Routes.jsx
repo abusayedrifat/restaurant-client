@@ -3,6 +3,7 @@ import Root from "../Root";
 import Home from "../Pages/Home/Home";
 import Register from "../Pages/Register/Register";
 import LogIn from "../Pages/LogIn/LogIn";
+import AllFoods from "../Pages/AllFoods/AllFoods";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
             {
                 path:'/logIn',
                 element:<LogIn></LogIn>
+            },
+            {
+                path:'/allFoods',
+                element:<AllFoods></AllFoods>,
+                loader:()=>fetch('/public/cleaned_restaurant_food_items.json')
             }
         ]
     }

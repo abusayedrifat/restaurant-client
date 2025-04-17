@@ -1,0 +1,1055 @@
+[
+  {
+    "foodName": "Burger Dish 1",
+    "country": "American Food",
+    "rating": 4.4,
+    "purchased": 129,
+    "price": 7.37,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger1.jpg"
+  },
+  {
+    "foodName": "Burger Dish 2",
+    "country": "American Food",
+    "rating": 4.4,
+    "purchased": 189,
+    "price": 9.74,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger2.jpg"
+  },
+  {
+    "foodName": "Burger Dish 3",
+    "country": "American Food",
+    "rating": 4.0,
+    "purchased": 89,
+    "price": 13.34,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger3.jpg"
+  },
+  {
+    "foodName": "Burger Dish 4",
+    "country": "American Food",
+    "rating": 4.9,
+    "purchased": 120,
+    "price": 17.2,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger4.jpg"
+  },
+  {
+    "foodName": "Burger Dish 5",
+    "country": "American Food",
+    "rating": 4.2,
+    "purchased": 132,
+    "price": 13.91,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger5.jpg"
+  },
+  {
+    "foodName": "Burger Dish 6",
+    "country": "American Food",
+    "rating": 4.6,
+    "purchased": 105,
+    "price": 11.25,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger6.jpg"
+  },
+  {
+    "foodName": "Burger Dish 7",
+    "country": "American Food",
+    "rating": 4.6,
+    "purchased": 131,
+    "price": 6.86,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger7.jpg"
+  },
+  {
+    "foodName": "Burger Dish 8",
+    "country": "American Food",
+    "rating": 4.3,
+    "purchased": 140,
+    "price": 19.03,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger8.jpg"
+  },
+  {
+    "foodName": "Burger Dish 9",
+    "country": "American Food",
+    "rating": 4.3,
+    "purchased": 178,
+    "price": 17.77,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger9.jpg"
+  },
+  {
+    "foodName": "Burger Dish 10",
+    "country": "American Food",
+    "rating": 4.4,
+    "purchased": 128,
+    "price": 18.92,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger10.jpg"
+  },
+  {
+    "foodName": "Burger Dish 11",
+    "country": "American Food",
+    "rating": 5.0,
+    "purchased": 74,
+    "price": 19.16,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger11.jpg"
+  },
+  {
+    "foodName": "Burger Dish 12",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 98,
+    "price": 10.87,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger12.jpg"
+  },
+  {
+    "foodName": "Burger Dish 13",
+    "country": "American Food",
+    "rating": 4.1,
+    "purchased": 103,
+    "price": 12.95,
+    "description": "Delicious burger dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/burger/burger13.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 1",
+    "country": "Italian Food",
+    "rating": 4.4,
+    "purchased": 87,
+    "price": 8.8,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza1.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 2",
+    "country": "Italian Food",
+    "rating": 4.6,
+    "purchased": 154,
+    "price": 7.45,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza2.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 3",
+    "country": "Italian Food",
+    "rating": 4.7,
+    "purchased": 158,
+    "price": 8.94,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza3.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 4",
+    "country": "Italian Food",
+    "rating": 4.1,
+    "purchased": 194,
+    "price": 9.61,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza4.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 5",
+    "country": "Italian Food",
+    "rating": 4.8,
+    "purchased": 102,
+    "price": 14.63,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza5.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 6",
+    "country": "Italian Food",
+    "rating": 4.6,
+    "purchased": 179,
+    "price": 14.79,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza6.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 7",
+    "country": "Italian Food",
+    "rating": 4.9,
+    "purchased": 53,
+    "price": 16.36,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza7.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 8",
+    "country": "Italian Food",
+    "rating": 4.6,
+    "purchased": 170,
+    "price": 8.64,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza8.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 9",
+    "country": "Italian Food",
+    "rating": 4.8,
+    "purchased": 56,
+    "price": 14.43,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza9.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 10",
+    "country": "Italian Food",
+    "rating": 4.6,
+    "purchased": 153,
+    "price": 14.02,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza10.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 11",
+    "country": "Italian Food",
+    "rating": 4.2,
+    "purchased": 108,
+    "price": 13.33,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza11.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 12",
+    "country": "Italian Food",
+    "rating": 4.1,
+    "purchased": 75,
+    "price": 8.1,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza12.jpg"
+  },
+  {
+    "foodName": "Pizza Dish 13",
+    "country": "Italian Food",
+    "rating": 4.1,
+    "purchased": 133,
+    "price": 10.04,
+    "description": "Delicious pizza dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pizza/pizza13.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 1",
+    "country": "Italian Food",
+    "rating": 4.7,
+    "purchased": 134,
+    "price": 15.23,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta1.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 2",
+    "country": "Italian Food",
+    "rating": 4.3,
+    "purchased": 164,
+    "price": 18.93,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta2.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 3",
+    "country": "Italian Food",
+    "rating": 4.7,
+    "purchased": 66,
+    "price": 18.34,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta3.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 4",
+    "country": "Italian Food",
+    "rating": 4.8,
+    "purchased": 59,
+    "price": 9.82,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta4.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 5",
+    "country": "Italian Food",
+    "rating": 4.8,
+    "purchased": 104,
+    "price": 7.24,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta5.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 6",
+    "country": "Italian Food",
+    "rating": 4.9,
+    "purchased": 186,
+    "price": 16.49,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta6.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 7",
+    "country": "Italian Food",
+    "rating": 4.2,
+    "purchased": 94,
+    "price": 12.05,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta7.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 8",
+    "country": "Italian Food",
+    "rating": 4.6,
+    "purchased": 174,
+    "price": 16.98,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta8.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 9",
+    "country": "Italian Food",
+    "rating": 4.2,
+    "purchased": 152,
+    "price": 6.53,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta9.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 10",
+    "country": "Italian Food",
+    "rating": 4.1,
+    "purchased": 165,
+    "price": 17.11,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta10.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 11",
+    "country": "Italian Food",
+    "rating": 4.3,
+    "purchased": 60,
+    "price": 12.92,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta11.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 12",
+    "country": "Italian Food",
+    "rating": 4.0,
+    "purchased": 194,
+    "price": 12.45,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta12.jpg"
+  },
+  {
+    "foodName": "Pasta Dish 13",
+    "country": "Italian Food",
+    "rating": 4.4,
+    "purchased": 153,
+    "price": 9.17,
+    "description": "Delicious pasta dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/pasta/pasta13.jpg"
+  },
+  {
+    "foodName": "Rice Dish 1",
+    "country": "Asian Food",
+    "rating": 4.9,
+    "purchased": 161,
+    "price": 11.34,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice1.jpg"
+  },
+  {
+    "foodName": "Rice Dish 2",
+    "country": "Asian Food",
+    "rating": 4.1,
+    "purchased": 155,
+    "price": 14.22,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice2.jpg"
+  },
+  {
+    "foodName": "Rice Dish 3",
+    "country": "Asian Food",
+    "rating": 4.2,
+    "purchased": 96,
+    "price": 15.55,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice3.jpg"
+  },
+  {
+    "foodName": "Rice Dish 4",
+    "country": "Asian Food",
+    "rating": 4.9,
+    "purchased": 168,
+    "price": 7.95,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice4.jpg"
+  },
+  {
+    "foodName": "Rice Dish 5",
+    "country": "Asian Food",
+    "rating": 4.3,
+    "purchased": 50,
+    "price": 17.52,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice5.jpg"
+  },
+  {
+    "foodName": "Rice Dish 6",
+    "country": "Asian Food",
+    "rating": 4.1,
+    "purchased": 108,
+    "price": 13.63,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice6.jpg"
+  },
+  {
+    "foodName": "Rice Dish 7",
+    "country": "Asian Food",
+    "rating": 4.7,
+    "purchased": 117,
+    "price": 13.19,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice7.jpg"
+  },
+  {
+    "foodName": "Rice Dish 8",
+    "country": "Asian Food",
+    "rating": 5.0,
+    "purchased": 181,
+    "price": 9.32,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice8.jpg"
+  },
+  {
+    "foodName": "Rice Dish 9",
+    "country": "Asian Food",
+    "rating": 4.8,
+    "purchased": 150,
+    "price": 7.2,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice9.jpg"
+  },
+  {
+    "foodName": "Rice Dish 10",
+    "country": "Asian Food",
+    "rating": 4.1,
+    "purchased": 176,
+    "price": 7.24,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice10.jpg"
+  },
+  {
+    "foodName": "Rice Dish 11",
+    "country": "Asian Food",
+    "rating": 4.7,
+    "purchased": 84,
+    "price": 15.11,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice11.jpg"
+  },
+  {
+    "foodName": "Rice Dish 12",
+    "country": "Asian Food",
+    "rating": 4.5,
+    "purchased": 149,
+    "price": 8.69,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice12.jpg"
+  },
+  {
+    "foodName": "Rice Dish 13",
+    "country": "Asian Food",
+    "rating": 4.9,
+    "purchased": 102,
+    "price": 7.02,
+    "description": "Delicious rice dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/rice/rice13.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 1",
+    "country": "Global Dessert",
+    "rating": 4.5,
+    "purchased": 112,
+    "price": 8.61,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert1.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 2",
+    "country": "Global Dessert",
+    "rating": 4.6,
+    "purchased": 147,
+    "price": 5.78,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert2.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 3",
+    "country": "Global Dessert",
+    "rating": 4.4,
+    "purchased": 112,
+    "price": 8.79,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert3.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 4",
+    "country": "Global Dessert",
+    "rating": 4.8,
+    "purchased": 126,
+    "price": 15.84,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert4.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 5",
+    "country": "Global Dessert",
+    "rating": 4.3,
+    "purchased": 106,
+    "price": 5.11,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert5.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 6",
+    "country": "Global Dessert",
+    "rating": 4.6,
+    "purchased": 75,
+    "price": 17.44,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert6.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 7",
+    "country": "Global Dessert",
+    "rating": 4.7,
+    "purchased": 103,
+    "price": 17.57,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert7.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 8",
+    "country": "Global Dessert",
+    "rating": 4.6,
+    "purchased": 180,
+    "price": 12.71,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert8.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 9",
+    "country": "Global Dessert",
+    "rating": 5.0,
+    "purchased": 154,
+    "price": 6.37,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert9.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 10",
+    "country": "Global Dessert",
+    "rating": 4.1,
+    "purchased": 66,
+    "price": 17.3,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert10.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 11",
+    "country": "Global Dessert",
+    "rating": 4.9,
+    "purchased": 93,
+    "price": 10.05,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert11.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 12",
+    "country": "Global Dessert",
+    "rating": 4.1,
+    "purchased": 119,
+    "price": 12.99,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert12.jpg"
+  },
+  {
+    "foodName": "Dessert Dish 13",
+    "country": "Global Dessert",
+    "rating": 4.7,
+    "purchased": 107,
+    "price": 12.45,
+    "description": "Delicious dessert dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/dessert/dessert13.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 1",
+    "country": "Indian Food",
+    "rating": 4.3,
+    "purchased": 119,
+    "price": 16.3,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori1.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 2",
+    "country": "Indian Food",
+    "rating": 4.6,
+    "purchased": 197,
+    "price": 6.19,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori2.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 3",
+    "country": "Indian Food",
+    "rating": 4.2,
+    "purchased": 118,
+    "price": 9.76,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori3.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 4",
+    "country": "Indian Food",
+    "rating": 4.5,
+    "purchased": 187,
+    "price": 16.92,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori4.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 5",
+    "country": "Indian Food",
+    "rating": 4.6,
+    "purchased": 189,
+    "price": 14.39,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori5.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 6",
+    "country": "Indian Food",
+    "rating": 5.0,
+    "purchased": 54,
+    "price": 5.39,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori6.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 7",
+    "country": "Indian Food",
+    "rating": 4.7,
+    "purchased": 181,
+    "price": 17.55,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori7.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 8",
+    "country": "Indian Food",
+    "rating": 4.6,
+    "purchased": 61,
+    "price": 16.05,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori8.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 9",
+    "country": "Indian Food",
+    "rating": 4.8,
+    "purchased": 200,
+    "price": 9.73,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori9.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 10",
+    "country": "Indian Food",
+    "rating": 5.0,
+    "purchased": 188,
+    "price": 13.44,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori10.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 11",
+    "country": "Indian Food",
+    "rating": 4.6,
+    "purchased": 60,
+    "price": 17.02,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori11.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 12",
+    "country": "Indian Food",
+    "rating": 4.7,
+    "purchased": 129,
+    "price": 15.93,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori12.jpg"
+  },
+  {
+    "foodName": "Tandoori Dish 13",
+    "country": "Indian Food",
+    "rating": 4.4,
+    "purchased": 106,
+    "price": 18.96,
+    "description": "Delicious tandoori dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/tandoori/tandoori13.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 1",
+    "country": "Indian Food",
+    "rating": 4.4,
+    "purchased": 86,
+    "price": 10.81,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani1.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 2",
+    "country": "Indian Food",
+    "rating": 4.6,
+    "purchased": 180,
+    "price": 7.17,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani2.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 3",
+    "country": "Indian Food",
+    "rating": 4.8,
+    "purchased": 128,
+    "price": 7.14,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani3.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 4",
+    "country": "Indian Food",
+    "rating": 4.7,
+    "purchased": 111,
+    "price": 11.78,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani4.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 5",
+    "country": "Indian Food",
+    "rating": 4.5,
+    "purchased": 134,
+    "price": 10.02,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani5.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 6",
+    "country": "Indian Food",
+    "rating": 4.9,
+    "purchased": 182,
+    "price": 16.09,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani6.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 7",
+    "country": "Indian Food",
+    "rating": 4.2,
+    "purchased": 59,
+    "price": 13.74,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani7.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 8",
+    "country": "Indian Food",
+    "rating": 4.2,
+    "purchased": 63,
+    "price": 14.79,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani8.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 9",
+    "country": "Indian Food",
+    "rating": 4.6,
+    "purchased": 140,
+    "price": 16.25,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani9.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 10",
+    "country": "Indian Food",
+    "rating": 4.7,
+    "purchased": 190,
+    "price": 8.9,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani10.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 11",
+    "country": "Indian Food",
+    "rating": 5.0,
+    "purchased": 93,
+    "price": 19.28,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani11.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 12",
+    "country": "Indian Food",
+    "rating": 4.4,
+    "purchased": 186,
+    "price": 6.31,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani12.jpg"
+  },
+  {
+    "foodName": "Biryani Dish 13",
+    "country": "Indian Food",
+    "rating": 4.9,
+    "purchased": 200,
+    "price": 14.3,
+    "description": "Delicious biryani dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/biryani/biryani13.jpg"
+  },
+  {
+    "foodName": "Bread Dish 1",
+    "country": "Middle Eastern Food",
+    "rating": 4.0,
+    "purchased": 126,
+    "price": 11.61,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread1.jpg"
+  },
+  {
+    "foodName": "Bread Dish 2",
+    "country": "Middle Eastern Food",
+    "rating": 4.0,
+    "purchased": 122,
+    "price": 8.66,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread2.jpg"
+  },
+  {
+    "foodName": "Bread Dish 3",
+    "country": "Middle Eastern Food",
+    "rating": 4.1,
+    "purchased": 117,
+    "price": 17.84,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread3.jpg"
+  },
+  {
+    "foodName": "Bread Dish 4",
+    "country": "Middle Eastern Food",
+    "rating": 4.3,
+    "purchased": 159,
+    "price": 10.78,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread4.jpg"
+  },
+  {
+    "foodName": "Bread Dish 5",
+    "country": "Middle Eastern Food",
+    "rating": 4.0,
+    "purchased": 104,
+    "price": 18.53,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread5.jpg"
+  },
+  {
+    "foodName": "Bread Dish 6",
+    "country": "Middle Eastern Food",
+    "rating": 4.7,
+    "purchased": 58,
+    "price": 5.14,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread6.jpg"
+  },
+  {
+    "foodName": "Bread Dish 7",
+    "country": "Middle Eastern Food",
+    "rating": 4.4,
+    "purchased": 148,
+    "price": 13.42,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread7.jpg"
+  },
+  {
+    "foodName": "Bread Dish 8",
+    "country": "Middle Eastern Food",
+    "rating": 4.4,
+    "purchased": 144,
+    "price": 9.92,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread8.jpg"
+  },
+  {
+    "foodName": "Bread Dish 9",
+    "country": "Middle Eastern Food",
+    "rating": 4.8,
+    "purchased": 121,
+    "price": 6.49,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread9.jpg"
+  },
+  {
+    "foodName": "Bread Dish 10",
+    "country": "Middle Eastern Food",
+    "rating": 4.3,
+    "purchased": 117,
+    "price": 8.26,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread10.jpg"
+  },
+  {
+    "foodName": "Bread Dish 11",
+    "country": "Middle Eastern Food",
+    "rating": 4.8,
+    "purchased": 141,
+    "price": 8.9,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread11.jpg"
+  },
+  {
+    "foodName": "Bread Dish 12",
+    "country": "Middle Eastern Food",
+    "rating": 4.6,
+    "purchased": 128,
+    "price": 6.51,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread12.jpg"
+  },
+  {
+    "foodName": "Bread Dish 13",
+    "country": "Middle Eastern Food",
+    "rating": 4.4,
+    "purchased": 50,
+    "price": 18.51,
+    "description": "Delicious bread dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/bread/bread13.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 1",
+    "country": "Global Food",
+    "rating": 4.0,
+    "purchased": 151,
+    "price": 8.06,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken1.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 2",
+    "country": "Global Food",
+    "rating": 4.4,
+    "purchased": 64,
+    "price": 11.87,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken2.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 3",
+    "country": "Global Food",
+    "rating": 4.9,
+    "purchased": 176,
+    "price": 19.77,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken3.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 4",
+    "country": "Global Food",
+    "rating": 4.9,
+    "purchased": 124,
+    "price": 10.66,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken4.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 5",
+    "country": "Global Food",
+    "rating": 4.3,
+    "purchased": 146,
+    "price": 17.67,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken5.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 6",
+    "country": "Global Food",
+    "rating": 4.1,
+    "purchased": 110,
+    "price": 12.13,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken6.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 7",
+    "country": "Global Food",
+    "rating": 4.7,
+    "purchased": 165,
+    "price": 16.11,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken7.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 8",
+    "country": "Global Food",
+    "rating": 4.3,
+    "purchased": 66,
+    "price": 7.72,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken8.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 9",
+    "country": "Global Food",
+    "rating": 4.7,
+    "purchased": 111,
+    "price": 14.93,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken9.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 10",
+    "country": "Global Food",
+    "rating": 4.4,
+    "purchased": 186,
+    "price": 13.99,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken10.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 11",
+    "country": "Global Food",
+    "rating": 4.0,
+    "purchased": 70,
+    "price": 19.48,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken11.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 12",
+    "country": "Global Food",
+    "rating": 4.3,
+    "purchased": 85,
+    "price": 10.94,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken12.jpg"
+  },
+  {
+    "foodName": "Chicken Dish 13",
+    "country": "Global Food",
+    "rating": 4.2,
+    "purchased": 64,
+    "price": 11.32,
+    "description": "Delicious chicken dish prepared with love and authentic spices.",
+    "imgURL": "https://foodish-api.com/images/chicken/chicken13.jpg"
+  }
+]
