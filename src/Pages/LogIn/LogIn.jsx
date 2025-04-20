@@ -49,7 +49,7 @@ const LogIn = () => {
       </h1>
       <form
         onSubmit={handleSubmit(handleLogIn)}
-        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-5 py-10 mx-3 border border-[#1f1d1b] border-2 rounded-xl"
+        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-5 py-10 mx-3  border-[#1f1d1b] border-2 rounded-xl"
       >
         <div>
           <h2 className="text-lg font-semibold mb-1">Your email</h2>
