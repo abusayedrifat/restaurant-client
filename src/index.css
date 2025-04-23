@@ -1,14 +1,18 @@
 @import "tailwindcss";
 @plugin "daisyui"; 
 
+body{
+background-color: #f8f5ee;
+}
+
 .buttonPrimary{
-  background-color: #1f1d1b;
-  color: #f8f7f3;
+  background-color: #e0be4f ;
+  color: #2e2e2e ;
 
 }
 
 .buttonPrimary:hover{
-  background-color: #f8f7f3;
-  border: 2px solid #1f1d1b;
-  color: #1f1d1b;
+  background-color: #ffffff;
+  border: 2px solid #e0be4f;
+  color: #e0be4f;
 }

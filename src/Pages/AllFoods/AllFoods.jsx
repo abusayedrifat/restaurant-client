@@ -1,18 +1,19 @@
-import { Link, useLoaderData } from "react-router-dom";
+import {Link ,useLoaderData}  from "react-router-dom";
+
 
 const AllFoods = () => {
   const allFoods = useLoaderData();
   console.log(allFoods.length);
 
   return (
-    <div className="grid grid-cols-3 gap-5  max-w-5/6 mx-auto my-20">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  max-w-5/6 mx-auto py-20">
       {allFoods.map((foodCard) => (
         <div
         key={foodCard._id}
-        className="flex flex-col  grow p-3 rounded-3xl shadow-lg bg-[#e5dfd2] group  "
+        className="flex flex-col  grow p-3 rounded-3xl shadow-lg bg-[#ffffff5b] group  "
       >
         <div className="h-full relative group">
-          <span className="bg-[#ffffff3d] group-hover:bg-[#ffffff90] rounded-2xl w-full absolute h-1/2 group-hover:h-full bottom-0 transition-all duration-400"></span>
+          <span className="bg-[#e0be4f3d] group-hover:bg-[#e0be4fae] rounded-2xl w-full absolute h-1/2 group-hover:h-full bottom-0 transition-all duration-400"></span>
           <img
             src={foodCard.imgURL}
             className="h-full w-full rounded-2xl scale-75 group-hover:scale-100 transition-transform duration-400 cursor-pointer"
@@ -20,7 +21,7 @@ const AllFoods = () => {
           />
         </div>
       
-        <div className="mt-4 space-y-1 ml-3">
+        <div className="mt-4 space-y-1 ml-3 text-[#2e2e2e]">
           <p className="font-bold text-xl">{foodCard.foodName}</p>
           <p>
             {" "}

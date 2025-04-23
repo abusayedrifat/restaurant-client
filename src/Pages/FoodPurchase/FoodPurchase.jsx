@@ -1,10 +1,106 @@
+import { useContext, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
+import Swal from 'sweetalert2'
+import axios from "axios";
 
 const FoodPurchase = () => {
-    return (
-        <div>
-            
+  const foods = useLoaderData();
+  const { foodName, price, purchased, imgURL } = foods;
+  const { user } = useContext(AuthContext);
+
+  const [quantity, setQuantity] = useState(0)
+
+ if (quantity < 0) {
+    setQuantity(0)
+ }
+ if (quantity > purchased ) {
+    Swal.fire({
+        icon: "error",
+        title: "Oops... ",
+        text: "You can't order more than available quantity",
+        footer: 'Please set at least 1 quantity to proceed your purchase'
+      });
+    setQuantity(purchased)
+ }
+ 
+
+  const handlePurchasing = () => {
+
+    const purchasingInfo = {
+      name: foodName,
+      price: price,
+      userName: user?.displayName,
+      email: user.email,
+      buyingDate: new Date().toISOString(),
+      quantity: quantity
+    };
+
+    if (quantity == 0) {
+        Swal.fire({
+            icon: "error",
+            title: "Oops... ",
+            text: "Seems you havn't selected any quantity",
+            footer: 'Please set at least 1 quantity to proceed your purchase'
+          });
+    }
+
+    else{
+        axios.post('http://localhost:5000/purchasingSingleFoodByUser', purchasingInfo)
+    .then(result=>{
+        Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "Your order is confirmed",
+        showConfirmButton: false,
+        timer: 1800
+      });
+        console.log(result);
+        
+    })
+    }
+
+    
+
+    
+  };
+  return (
+    <div className="flex flex-col justify-center items-center mx-auto text-[#1f1d1b]">
+      <h1 className="mt-10 lg:mt-16 mb-6 text-4xl md:text-5xl lg:text-5xl font-bold">
+        You are Purchasing
+      </h1>
+
+      <div className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 p-5 mx-3  border-[#1f1d1b] border-2 rounded-3xl text-lg ">
+        <img src={imgURL} className=" rounded-t-xl" alt="" />
+        <div className="ml-1">
+          <p className="">
+            <span className="font-bold">Food Name :</span> {foodName}
+          </p>
+          <p className="text-[#b94003]">
+            <span className="font-bold text-[#2e2e2e]">Price :</span> ${price}{" "}
+          </p>
+          <p>
+            <span className="font-bold">Buyer name :</span>
+            {user?.displayName}
+          </p>
+          <p>
+            <span className="font-bold">Buyer email : </span>
+             {user.email}
+          </p>
+          <p>
+          <span className="font-bold">Quantity : </span>
+          <div className="flex gap-5 items-center">
+            <button className="btn" onClick={()=>setQuantity(quantity=> quantity-1)}>-</button>
+            {quantity}
+            <button className="btn" onClick={()=>setQuantity(quantity=> quantity+1)}>+</button>
+          </div>
+          </p>
         </div>
-    );
+
+        <button onClick={()=>handlePurchasing()} className="btn">Purchase</button>
+      </div>
+    </div>
+  );
 };
 
 export default FoodPurchase;

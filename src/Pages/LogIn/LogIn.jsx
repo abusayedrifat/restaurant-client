@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import Swal from 'sweetalert2'
 
 const LogIn = () => {
