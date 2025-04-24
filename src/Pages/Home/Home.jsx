@@ -1,3 +1,4 @@
+
 import { useContext } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 
@@ -9,7 +10,11 @@ const Home = () => {
     <div>
       this is home
       <div className="group w-72 overflow-hidden bg-white shadow-lg rounded-md">
-        <img src="https://www.andy-cooks.com/cdn/shop/articles/20230925162520-andy-20cooks-20-20lahmacun.jpg?v=1695663292" alt="Food" className="w-full h-48 object-cover" />
+        <img
+          src="https://www.andy-cooks.com/cdn/shop/articles/20230925162520-andy-20cooks-20-20lahmacun.jpg?v=1695663292"
+          alt="Food"
+          className="w-full h-48 object-cover"
+        />
 
         <div className="max-h-32 hover:max-h-96 transition-all duration-500 ease-in-out overflow-hidden">
           <div className="p-4">
@@ -21,6 +26,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };

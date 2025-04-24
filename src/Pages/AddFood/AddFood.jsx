@@ -30,7 +30,7 @@ const AddFood = () => {
         Add Your Food
       </h1>
       <form
-        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-8 py-10 mx-3  border-[#c2c8cd60] border-2 rounded-xl bg-[#5c5932] text-white"
+        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-8 py-10 mx-3  border-[#c2c8cd60] border-2 rounded-xl bg-[#dcb842] text-white" 
         onSubmit={handleSubmit(handleAddFood)}
       >
         <div>
@@ -160,7 +160,7 @@ const AddFood = () => {
           )}
         </fieldset>
 
-<input type="submit" value={'add My Food'} className="btn buttonPrimary border-none" />
+<input type="submit" value={'Add My Food'} className="btn border-none" />
         
       </form>
     </div>

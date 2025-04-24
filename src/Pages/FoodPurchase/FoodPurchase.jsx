@@ -65,12 +65,12 @@ const FoodPurchase = () => {
     
   };
   return (
-    <div className="flex flex-col justify-center items-center mx-auto text-[#1f1d1b]">
+    <div className="flex flex-col justify-center items-center mx-auto text-[#1f1d1b] pb-20">
       <h1 className="mt-10 lg:mt-16 mb-6 text-4xl md:text-5xl lg:text-5xl font-bold">
         You are Purchasing
       </h1>
 
-      <div className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 p-5 mx-3  border-[#1f1d1b] border-2 rounded-3xl text-lg ">
+      <div className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 p-5 mx-3 border-4 border-dashed border-[#b9400354] rounded-3xl text-lg ">
         <img src={imgURL} className=" rounded-t-xl" alt="" />
         <div className="ml-1">
           <p className="">
@@ -87,17 +87,17 @@ const FoodPurchase = () => {
             <span className="font-bold">Buyer email : </span>
              {user.email}
           </p>
-          <p>
+          <div className="flex gap-5 my-3 items-center">
           <span className="font-bold">Quantity : </span>
           <div className="flex gap-5 items-center">
-            <button className="btn" onClick={()=>setQuantity(quantity=> quantity-1)}>-</button>
+            <button className="btn buttonPrimary" onClick={()=>setQuantity(quantity=> quantity-1)}>-</button>
             {quantity}
-            <button className="btn" onClick={()=>setQuantity(quantity=> quantity+1)}>+</button>
+            <button className="btn buttonPrimary" onClick={()=>setQuantity(quantity=> quantity+1)}>+</button>
           </div>
-          </p>
+          </div>
         </div>
 
-        <button onClick={()=>handlePurchasing()} className="btn">Purchase</button>
+        <button onClick={()=>handlePurchasing()} className="btn buttonPrimary">Purchase</button>
       </div>
     </div>
   );
