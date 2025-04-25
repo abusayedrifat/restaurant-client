@@ -29,8 +29,10 @@ const AddFood = () => {
       <h1 className="mt-10 lg:mt-16 mb-6 text-4xl md:text-5xl lg:text-5xl font-bold">
         Add Your Food
       </h1>
+      <div className="min-w-[350px] md:w-1/3 lg:w-1/3 border-[#b9400354] border-dashed border-4 p-2 rounded-3xl">
+        
       <form
-        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-8 py-10 mx-3  border-[#c2c8cd60] border-2 rounded-xl bg-[#dcb842] text-white" 
+        className="flex flex-col gap-5 px-8 py-10   rounded-2xl bg-[#dcb842] text-white" 
         onSubmit={handleSubmit(handleAddFood)}
       >
         <div>
@@ -163,6 +165,7 @@ const AddFood = () => {
 <input type="submit" value={'Add My Food'} className="btn border-none" />
         
       </form>
+      </div>
     </div>
   );
 };

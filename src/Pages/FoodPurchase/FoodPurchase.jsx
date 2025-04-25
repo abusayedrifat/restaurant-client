@@ -1,13 +1,16 @@
 import { useContext, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import Swal from 'sweetalert2'
 import axios from "axios";
+import moment from 'moment';
+
 
 const FoodPurchase = () => {
   const foods = useLoaderData();
   const { foodName, price, purchased, imgURL } = foods;
   const { user } = useContext(AuthContext);
+  const navigate = useNavigate()
 
   const [quantity, setQuantity] = useState(0)
 
@@ -28,12 +31,13 @@ const FoodPurchase = () => {
   const handlePurchasing = () => {
 
     const purchasingInfo = {
-      name: foodName,
+      foodName: foodName,
       price: price,
       userName: user?.displayName,
       email: user.email,
-      buyingDate: new Date().toISOString(),
-      quantity: quantity
+      buyingDate: new moment().format('llll'),
+      quantity: quantity,
+      imgURL: imgURL
     };
 
     if (quantity == 0) {
@@ -56,7 +60,7 @@ const FoodPurchase = () => {
         timer: 1800
       });
         console.log(result);
-        
+        navigate('/allFoods')
     })
     }
 

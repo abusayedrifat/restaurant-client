@@ -1,9 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import  {useNavigate,NavLink}  from "react-router-dom";
+import { useNavigate, NavLink } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { toast, ToastContainer } from "react-toastify";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 
 const Register = () => {
@@ -14,61 +14,47 @@ const Register = () => {
   } = useForm();
   const { createUser } = useContext(AuthContext);
   const [showPssword, handleShowPasssword] = useState(false);
-
   const navigate = useNavigate();
 
-  const handleRegister = (data) => {
-
-    const { email, password ,name} = data;
+  const handleRegister = (data, event) => {
+    const { email, password } = data;
+    const form = event.target;
 
     createUser(email, password)
-    .then((result) => {
+      .then((result) => {
         console.log(result);
-        const createdTime = result.user?.metadata?.creationTime
-        const user = {createdTime,email,name}
-        fetch("https://arts-crafts-server-green.vercel.app/users", {
-          method: "POST",
-          headers: {
-            "content-type": "application/json",
-          },
-          body: JSON.stringify(user),
-        })
-          .then((res) => res.json())
-          .then((result) => console.log(result));
-          Swal.fire({
-            title: "Registered Successfully",
-            icon: "success",
-            draggable: true
-          });
-           navigate("/logIn");
+
+        Swal.fire({
+          title: "Registered Successfully",
+          icon: "success",
+          draggable: true,
+        });
+        navigate("/logIn");
+        form.reset();
       })
-    .catch((error) => {
+      .catch((error) => {
         console.log(error.message);
       });
   };
 
-  const handlePassword = (e)=>{
-    const password = e.target.value
+  const handlePassword = (e) => {
+    const password = e.target.value;
     console.log(password);
-    
-    if (password.length < 6) {
-        toast.warn('password length must be 6 !');
-            return
-    }
-    else if (!/[A-Z]/.test(password)) {
-        toast.warn('at least one UpperCase latter');
-        return
 
+    if (password.length < 6) {
+      toast.warn("password length must be 6 !");
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      toast.warn("at least one UpperCase latter");
+      return;
+    } else if (!/[a-z]/.test(password)) {
+      toast.warn("at least one lowerCase letter");
+      return;
+    } else {
+      toast.success("password is good to go now");
+      return;
     }
-    else if (!/[a-z]/.test(password)) {
-        toast.warn('at least one lowerCase letter');
-            return
-    }
-    else{
-        toast.success('password is good to go now',);
-            return
-    }
-  }
+  };
 
   useEffect(() => {
     window.scroll(0, 0);
@@ -82,7 +68,7 @@ const Register = () => {
       <form
         action=""
         onSubmit={handleSubmit(handleRegister)}
-        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-5 py-10 mx-3 border border-red-600 rounded-xl"
+        className="flex flex-col gap-5 min-w-[350px] md:w-1/3 lg:w-1/3 px-5 py-10 mx-3  border-[#c2c8cd60] border-2 rounded-xl bg-[#dcb842] text-white"
       >
         <div>
           <h2 className="text-lg font-semibold mb-1">Your name</h2>
@@ -91,7 +77,7 @@ const Register = () => {
             name="name"
             {...register("name", { required: true })}
             placeholder="Enter name"
-            className="input input-bordered input-md w-full "
+            className="input focus:outline-[#aaa55cac] border-none input-md w-full text-[#302e2d]  "
           />
           {errors.name && (
             <span className="text-red-600">*Please enter your name</span>
@@ -104,7 +90,7 @@ const Register = () => {
             name="email"
             {...register("email", { required: true })}
             placeholder="Enter email"
-            className="input input-bordered input-md w-full "
+            className="input focus:outline-[#aaa55cac] border-none input-md w-full text-[#302e2d]  "
           />
           {errors.email && (
             <span className="text-red-600">*Please enter your email</span>
@@ -117,7 +103,7 @@ const Register = () => {
             name="photoURL"
             {...register("photoURL", { required: true })}
             placeholder="Enter photoURL"
-            className="input input-bordered input-md w-full "
+            className="input focus:outline-[#aaa55cac] border-none input-md w-full text-[#302e2d]  "
           />
           {errors.photo && (
             <span className="text-red-600">*Please enter your photoURL</span>
@@ -132,7 +118,7 @@ const Register = () => {
               onKeyUp={handlePassword}
               {...register("password", { required: true })}
               placeholder="Enter password"
-              className="input input-bordered input-md w-full "
+              className="input focus:outline-[#aaa55cac] border-none input-md w-full text-[#302e2d]  "
             />
             <span
               onClick={() => handleShowPasssword(!showPssword)}
@@ -154,13 +140,13 @@ const Register = () => {
 
         <input className="btn" type="submit" value={"Register"} />
       </form>
-      <p className="font-semibold text-lg">
-        Alraedy have an account? Please{" "}
-        <NavLink to={"/logIn"} className="text-blue-600 font-semibold text-xl">
+      <p className="font-semibold text-lg my-5">
+        Already have an account? Please{" "}
+        <NavLink to={"/logIn"} className="font-bold underline text-blue-600 italic">
           LogIn
         </NavLink>
       </p>
-       <div>
+      <div>
         <ToastContainer
           position="top-left"
           autoClose={1800}
