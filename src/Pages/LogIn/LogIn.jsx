@@ -94,7 +94,7 @@ const LogIn = () => {
             </div>
             
             <span
-              className=" absolute right-3 top-3 cursor-pointer"
+              className=" absolute right-3 top-3 cursor-pointer text-[#2e2e2e]"
               onClick={() => setShowPassword(!showPssword)}
             >
               {showPssword ? <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}

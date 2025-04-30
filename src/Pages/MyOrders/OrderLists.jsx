@@ -24,9 +24,9 @@ const OrderLists = ({orderLists,handledelete}) => {
             <td>
                 {buyingDate}
             </td>
-            <td className="text-3xl text-red-500 " onClick={()=>handledelete()}>
+            <th className="text-3xl text-red-500 " onClick={()=>handledelete(_id)}>
             <MdDelete className="cursor-pointer"></MdDelete>
-            </td>
+            </th>
         </tr> 
         
         
