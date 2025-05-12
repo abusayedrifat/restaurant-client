@@ -5,6 +5,8 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { toast, ToastContainer } from "react-toastify";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
+import auth from "../../firebase.config";
+import axios from "axios";
 
 const Register = () => {
   const {
@@ -12,7 +14,7 @@ const Register = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const { createUser } = useContext(AuthContext);
+  const { createUser,googleLogIn,logOut } = useContext(AuthContext);
   const [showPssword, handleShowPasssword] = useState(false);
   const navigate = useNavigate();
 
@@ -29,13 +31,52 @@ const Register = () => {
           icon: "success",
           draggable: true,
         });
+
+      logOut(auth)
+      .then((result) =>{
         navigate("/logIn");
         form.reset();
+        console.log(result)
+      })
+      .catch((error) => console.log(error.message));
+
+        
       })
       .catch((error) => {
         console.log(error.message);
       });
   };
+
+  const handleGoogleLogIn = (e) => {
+      e.preventDefault();
+      
+          googleLogIn()
+      .then((result) => {
+        const user = result.user;
+        axios
+          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .then((res) => {
+            console.log(res.data);
+            Swal.fire({
+              position: "center",
+              icon: "success",
+              title: "Your are logged in",
+              showConfirmButton: false,
+              timer: 1800,
+            });
+            navigate(location?.state ? location?.state : "/");
+          });
+      })
+      .catch((error) => {
+        Swal.fire({
+          icon: "error",
+          title: "Oops... ",
+          text: "Seems your password or email may be wrong",
+          footer: "Please provide right email/password",
+        });
+        console.log(error.message);
+      });
+    };
 
   const handlePassword = (e) => {
     const password = e.target.value;
@@ -146,6 +187,17 @@ const Register = () => {
           LogIn
         </NavLink>
       </p>
+       <div className="flex items-center text-[#2e2e2e8c]">
+        <hr className="border w-36 md:w-52" />
+        <span className="px-4 text-[#2e2e2e] text-xl"> Or</span>
+        <hr className="border w-36 md:w-52" />
+      </div>
+      <button
+        onClick={handleGoogleLogIn}
+        className="btn buttonPrimary my-8 min-w-[350px] md:w-1/3 lg:w-1/3"
+      >
+        Google Log In
+      </button>
       <div>
         <ToastContainer
           position="top-left"

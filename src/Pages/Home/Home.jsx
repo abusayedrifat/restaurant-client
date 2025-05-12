@@ -7,7 +7,7 @@ import DiscountOffers from "../../Components/DiscountOffers/DiscountOffers";
 import OrderProcess from "../../Components/OrderProcess/OrderProcess";
 const Home = () => {
   const { user } = useContext(AuthContext);
-console.log(user);
+  console.log(user);
 
   const foodData = useLoaderData();
 
@@ -49,14 +49,30 @@ console.log(user);
 
         <DiscountOffers></DiscountOffers>
         <div className="mt-40">
-          <h2 className=" font-bold text-4xl lg:text-6xl md:mt-32 mb-20 text-center">
+          <h2 className=" font-bold text-4xl lg:text-6xl md:mt-32 mb-30 text-center">
             Order Process
           </h2>
 
           <OrderProcess></OrderProcess>
         </div>
-
-      
+        <div>
+             <h2 className=" font-bold text-4xl lg:text-5xl md:mt-32 mb-20 text-center">
+            Cooked with Love, Served with Heart
+          </h2>
+         
+         
+          <div className=" py-12 mx-3 md:p-10 border-dashed rounded-md border-[#b9400354] border-4 space-y-5">
+             <p className="font-bold text-4xl text-center -ml-16 ">
+            👉 Stay With Us{" "}
+          </p>
+          <p className="text-2xl font-medium text-center">and</p>
+          <p className="font-bold text-4xl text-center">
+            Taste. Vibe. Repeat.{" "}
+          </p>
+          <p className="text-center text-3xl mt-5"> 😉 </p>
+          </div>
+         
+        </div>
       </div>
     </div>
   );

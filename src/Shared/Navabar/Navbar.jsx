@@ -1,4 +1,3 @@
-
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
@@ -17,7 +16,8 @@ const Navbar = () => {
         <NavLink to="/allFoods">All Foods</NavLink>
       </li>
       <li className="font-light text-lg ">
-        <NavLink to="/foodGallary"> Food Gallary</NavLink></li>
+        <NavLink to="/foodGallary"> Food Gallary</NavLink>
+      </li>
     </>
   );
 
@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex p justify-between items-center bg-[#f0bd57] h-18">
+      <div className="flex p justify-between items-center bg-[#fbb540] md:h-24">
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
@@ -54,38 +54,38 @@ const Navbar = () => {
                 </svg>
               </div>
               <ul
-                tabIndex={0}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
                 {navbar}
               </ul>
             </div>
-            <p className="text-[#c9b99d]">.</p>
+            <p className="text-[#c9b99d] hidden md:block">
+              <img src="./restaurant.png" alt="" className=" w-16" />
+              <span className="text-white">Vojon Bari</span>
+            </p>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{navbar}</ul>
           </div>
           <div className="navbar-end">
-            <div className="dropdown dropdown-end">
+            <div tabIndex={0} className="dropdown dropdown-end">
               <div
-                tabIndex={0}
+              
                 className="m-1 bg-transparent border-amber-600 text-white hover:text-black hover:cursor-pointer"
               >
-                {user ? (
-                  <img
-                    src={user.photoURL}
-                    alt=""
-                    className="h-16 w-16 rounded-full border border-amber-300"
-                  />
-                ) : (
+                {user ? (<img
+                src={user.photoURL}
+                    alt="user"
+                    className="h-16 w-16 rounded-full border-3 border-amber-300"
+                  />) : (
                   <div className="flex items-center gap-2 text-[#202020]">
-                    <NavLink to='/logIn' className='btn'>
-                     SignIn
-                    </NavLink>
+                
+                      <NavLink to="/logIn" className={'btn'}>SignIn</NavLink>
+                
+
                     <span>Or</span>
-                    <NavLink to="/register" className='btn'>
-                      SignUp
-                    </NavLink>
+                      <NavLink to="/register" className={'btn'}> SignUp</NavLink>
+                  
                   </div>
                 )}
               </div>
@@ -99,27 +99,26 @@ const Navbar = () => {
               >
                 <li className="text-center">
                   {user && (
-
                     <ul>
-                        <li>
-                         <Link to="/logIn">
-                      <button onClick={() => handleLogOut()}>Log Out</button>
-                    </Link>   
-                        </li>
-                        <li>
-                            <Link to='/myOrders'>My Orders  </Link>
-                        </li>
-                        <li>
-                            <Link to='/addFood'> Add Food </Link>
-                        </li>
-                        <li>
-                            <Link to='/myFoods'>My Foods</Link>
-                        </li>
+                      <li>
+                        <Link to="/logIn">
+                          <button onClick={() => handleLogOut()}>
+                            Log Out
+                          </button>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/myOrders">My Orders </Link>
+                      </li>
+                      <li>
+                        <Link to="/addFood"> Add Food </Link>
+                      </li>
+                      <li>
+                        <Link to="/myFoods">My Foods</Link>
+                      </li>
                     </ul>
-                    
                   )}
                 </li>
-                
               </ul>
             </div>
           </div>

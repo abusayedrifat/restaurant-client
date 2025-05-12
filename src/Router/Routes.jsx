@@ -9,8 +9,8 @@ import FoodPurchase from "../Pages/FoodPurchase/FoodPurchase";
 import Gallery from "../Pages/Gallery/Gallery";
 import MyOrders from "../Pages/MyOrders/MyOrders";
 import MyFoods from "../Pages/MyFoods/MyFoods";
-import Register from "../Pages/Register/Register";
 import LogIn from "../Pages/LogIn/LogIn";
+import Register from "../Pages/Register/Register";
 
 const router = createBrowserRouter([
     {

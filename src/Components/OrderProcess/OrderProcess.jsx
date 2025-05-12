@@ -2,7 +2,7 @@ import React from "react";
 
 const OrderProcess = () => {
   return (
-    <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row items-center">
+    <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row items-center mb-52">
       <div className="flex flex-col justify-center items-center gap-3">
         <span className="border-4 border-dashed border-[#b9400354] rounded-full p-2">
           <img

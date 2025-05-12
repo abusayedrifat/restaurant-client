@@ -2,8 +2,8 @@ import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
-import {Link, useLocation, useNavigate} from "react-router-dom";
-import Swal from 'sweetalert2'
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import axios from "axios";
 
 const LogIn = () => {
@@ -12,46 +12,77 @@ const LogIn = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  
-  const { logIn } = useContext(AuthContext);
+
+  const { logIn, googleLogIn } = useContext(AuthContext);
   const [showPssword, setShowPassword] = useState(false);
   const navigate = useNavigate();
-  const location = useLocation()
-
+  const location = useLocation();
 
   const handleLogIn = (data) => {
     const { email, password } = data;
 
     logIn(email, password)
       .then((result) => {
-
-        const user = result.user
-        axios.post('http://localhost:5000/jwt',user, {withCredentials:true})
-        .then(res=>{
-          console.log(res.data);
-           Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "Your are logged in",
-            showConfirmButton: false,
-            timer: 1800
+        const user = result.user;
+        axios
+          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .then((res) => {
+            console.log(res.data);
+            Swal.fire({
+              position: "center",
+              icon: "success",
+              title: "Your are logged in",
+              showConfirmButton: false,
+              timer: 1800,
+            });
+            navigate(location?.state ? location?.state : "/");
           });
-        navigate(location?.state ? location?.state : '/');
-          
-        })
-       
+
         console.log(result);
       })
       .catch((error) => {
         Swal.fire({
-            icon: "error",
-            title: "Oops... ",
-            text: "Seems your password or email may be wrong",
-            footer: 'Please provide right email/password'
-          });
+          icon: "error",
+          title: "Oops... ",
+          text: "Seems your password or email may be wrong",
+          footer: "Please provide right email/password",
+        });
         console.log(error.message);
       });
     console.log(data);
+  };
+
+  //google login
+
+  const handleGoogleLogIn = (e) => {
+    e.preventDefault();
+
+       googleLogIn()
+      .then((result) => {
+        const user = result.user;
+        axios
+          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .then((res) => {
+            console.log(res.data);
+            Swal.fire({
+              position: "center",
+              icon: "success",
+              title: "Your are logged in",
+              showConfirmButton: false,
+              timer: 1800,
+            });
+            navigate(location?.state ? location?.state : "/");
+          });
+      })
+      .catch((error) => {
+        Swal.fire({
+          icon: "error",
+          title: "Oops... ",
+          text: "Seems your password or email may be wrong",
+          footer: "Please provide right email/password",
+        });
+        console.log(error.message);
+      });
   };
 
   return (
@@ -81,18 +112,19 @@ const LogIn = () => {
           <div className="flex relative w-full">
             <div className="w-full">
               <input
-              type={showPssword ? "text" : "password"}
-              name="password"
-              {...register("password", { required: true })}
-              placeholder="Enter password"
-              className="input focus:outline-[#aaa55cac] border-none input-md w-full text-[#302e2d] "
-            />
-            {errors.password && (
-              <span className="text-red-600">*Please enter your password</span>
-            )}
-              
+                type={showPssword ? "text" : "password"}
+                name="password"
+                {...register("password", { required: true })}
+                placeholder="Enter password"
+                className="input focus:outline-[#aaa55cac] border-none input-md w-full text-[#302e2d] "
+              />
+              {errors.password && (
+                <span className="text-red-600">
+                  *Please enter your password
+                </span>
+              )}
             </div>
-            
+
             <span
               className=" absolute right-3 top-3 cursor-pointer text-[#2e2e2e]"
               onClick={() => setShowPassword(!showPssword)}
@@ -101,12 +133,35 @@ const LogIn = () => {
             </span>
           </div>
         </div>
-        <input className="btn border-none mt-8" type="submit" value={"Log In"} />
+        <input
+          className="btn border-none mt-8"
+          type="submit"
+          value={"Log In"}
+        />
       </form>
 
       <div className="my-6">
-        <p className="text-xl">Don't have an account? <Link to='/register' className="font-bold underline text-blue-600 italic">Register</Link> </p>
+        <p className="text-xl">
+          Don't have an account?{" "}
+          <Link
+            to="/register"
+            className="font-bold underline text-blue-600 italic"
+          >
+            Register
+          </Link>{" "}
+        </p>
       </div>
+      <div className="flex items-center text-[#2e2e2e8c]">
+        <hr className="border w-36 md:w-52" />
+        <span className="px-4 text-[#2e2e2e] text-xl"> Or</span>
+        <hr className="border w-36 md:w-52" />
+      </div>
+      <button
+        onClick={handleGoogleLogIn}
+        className="btn buttonPrimary my-8 min-w-[350px] md:w-1/3 lg:w-1/3"
+      >
+        Google Log In
+      </button>
     </div>
   );
 };
