@@ -25,6 +25,7 @@ const Gallery = () => {
                   <div class="card-back">
                     <h3 className="font-bold">{loadImages.foodName}</h3>
                     <p>{loadImages.description}</p>
+                    <p> {loadImages.imgURL} </p>
                   </div>
                 </div>
               </div>

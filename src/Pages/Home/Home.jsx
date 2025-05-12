@@ -1,32 +1,23 @@
-
 import { useContext } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
+import Carousal from "../../Components/Carousal/Carousal";
 
 const Home = () => {
   const { user } = useContext(AuthContext);
   console.log(user);
 
   return (
-    <div>
-      this is home
-      <div className="group w-72 overflow-hidden bg-white shadow-lg rounded-md">
-        <img
-          src="https://www.andy-cooks.com/cdn/shop/articles/20230925162520-andy-20cooks-20-20lahmacun.jpg?v=1695663292"
-          alt="Food"
-          className="w-full h-48 object-cover"
-        />
+    <div className="max-w-[1540px] mx-auto pb-28">
+      <div className="w-full">
+        <Carousal></Carousal>
+      </div>
+      <div className="flex flex-col justify-center items-center">
+        <h1 className="text-2xl font-bold md:text-4xl lg:text-6xl my-16">Top Selling foods</h1>
 
-        <div className="max-h-32 hover:max-h-96 transition-all duration-500 ease-in-out overflow-hidden">
-          <div className="p-4">
-            <h3 className="text-lg font-semibold">Delicious Dish</h3>
-            <p className="text-sm text-gray-600">
-              This is a short description of the food item that expands on
-              hover. Super tasty!
-            </p>
-          </div>
+        <div>
+          
         </div>
       </div>
-     
     </div>
   );
 };

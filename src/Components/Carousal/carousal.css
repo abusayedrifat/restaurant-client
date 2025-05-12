@@ -1,0 +1,14 @@
+.my-slider-progress {
+    background: #ccc;
+  }
+  
+  .my-slider-progress-bar {
+    background: greenyellow;
+    height: 2px;
+    transition: width 400ms ease;
+    width: 0;
+  }
+
+  .shades{
+    background: linear-gradient(90deg, #000000a0,#00000036, #00000000 );
+  }
