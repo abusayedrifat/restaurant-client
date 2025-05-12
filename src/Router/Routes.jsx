@@ -1,8 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root";
 import Home from "../Pages/Home/Home";
-import Register from "../Pages/Register/Register";
-import LogIn from "../Pages/LogIn/LogIn";
 import AllFoods from "../Pages/AllFoods/AllFoods";
 import SingleFood from "../Pages/SingleFood/SingleFood";
 import AddFood from "../Pages/AddFood/AddFood";
@@ -11,6 +9,8 @@ import FoodPurchase from "../Pages/FoodPurchase/FoodPurchase";
 import Gallery from "../Pages/Gallery/Gallery";
 import MyOrders from "../Pages/MyOrders/MyOrders";
 import MyFoods from "../Pages/MyFoods/MyFoods";
+import Register from "../Pages/Register/Register";
+import LogIn from "../Pages/LogIn/LogIn";
 
 const router = createBrowserRouter([
     {

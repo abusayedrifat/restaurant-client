@@ -79,12 +79,12 @@ const Navbar = () => {
                   />
                 ) : (
                   <div className="flex items-center gap-2 text-[#202020]">
-                    <NavLink to="/logIn">
-                      <button className="btn">SignIn</button>
+                    <NavLink to='/logIn' className='btn'>
+                     SignIn
                     </NavLink>
                     <span>Or</span>
-                    <NavLink to="/register">
-                      <button className="btn">SignUp</button>
+                    <NavLink to="/register" className='btn'>
+                      SignUp
                     </NavLink>
                   </div>
                 )}

@@ -36,7 +36,7 @@ const LogIn = () => {
             showConfirmButton: false,
             timer: 1800
           });
-        navigate(location?.state   ?   location?.state : '/');
+        navigate(location?.state ? location?.state : '/');
           
         })
        
