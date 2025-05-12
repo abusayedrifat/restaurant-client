@@ -14,62 +14,80 @@ import Register from "../Pages/Register/Register";
 import UpdateMyFood from "../Pages/UpdateMyFood/UpdateMyFood";
 
 const router = createBrowserRouter([
-    {
-        path:'/',
-        element:<Root></Root>,
-        children:[
-            {
-                path:'/',
-                loader:()=>fetch('http://localhost:5000/foodItems'),
-                element:<Home></Home>
-            },
-            {
-                path:'/register',
-                element:<Register></Register>
-            },
-            {
-                path:'/logIn',
-                element:<LogIn></LogIn>
-            },
-            {
-                path:'/allFoods',
-                element:<AllFoods></AllFoods>
-            },
-            {
-                path:'/addFood',
-                element: <PrivateRoute><AddFood></AddFood></PrivateRoute> 
-            },
-            {
-                path:'/singleFoodPage/:id',
-                loader:({params})=>fetch(`http://localhost:5000/foodItems/${params.id}`) ,
-                element:<SingleFood></SingleFood>
-                
-            },
-            {
-                path:'/foodPurchase/:id',
-                loader:({params})=>fetch(`http://localhost:5000/foodItems/${params.id}`),
-                element:<PrivateRoute><FoodPurchase></FoodPurchase></PrivateRoute>  
-            },
-            {
-                path:'/foodGallary',
-                loader:()=>fetch('http://localhost:5000/foodItems'),
-                element:<Gallery></Gallery>
-            },
-            {
-                path:'/myOrders',
-                element: <PrivateRoute><MyOrders></MyOrders></PrivateRoute> 
+  {
+    path: "/",
+    element: <Root></Root>,
+    children: [
+      {
+        path: "/",
+        loader: () =>
+          fetch("https://restaurant-server-side-sigma.vercel.app/foodItems"),
+        element: <Home></Home>,
+      },
+      {
+        path: "/register",
+        element: <Register></Register>,
+      },
+      {
+        path: "/logIn",
+        element: <LogIn></LogIn>,
+      },
+      {
+        path: "/allFoods",
+        element: <AllFoods></AllFoods>,
+      },
+      {
+        path: "/addFood",
+        element: (
+          <PrivateRoute>
+            <AddFood></AddFood>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/singleFoodPage/:id",
+        loader: ({ params }) =>
+          fetch(
+            `https://restaurant-server-side-sigma.vercel.app/foodItems/${params.id}`
+          ),
+        element: <SingleFood></SingleFood>,
+      },
+      {
+        path: "/foodPurchase/:id",
+        loader: ({ params }) =>
+          fetch(
+            `https://restaurant-server-side-sigma.vercel.app/foodItems/${params.id}`
+          ),
+        element: (
+          <PrivateRoute>
+            <FoodPurchase></FoodPurchase>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/foodGallary",
+        loader: () =>
+          fetch("https://restaurant-server-side-sigma.vercel.app/foodItems"),
+        element: <Gallery></Gallery>,
+      },
+      {
+        path: "/myOrders",
+        element: (
+          <PrivateRoute>
+            <MyOrders></MyOrders>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/myFoods",
+        element: <MyFoods></MyFoods>,
+      },
+      {
+        path: "/updateMyFood",
+        element: <UpdateMyFood></UpdateMyFood>,
+      },
+    ],
+  },
+]);
 
-            },
-            {
-                path:'/myFoods',
-                element:<MyFoods></MyFoods>
-            },
-            {
-                path:'/updateMyFood',
-                element:<UpdateMyFood></UpdateMyFood>
-            }
-        ]
-    }
-])
-
-export default router
+export default router;

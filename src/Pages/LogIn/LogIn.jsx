@@ -25,7 +25,9 @@ const LogIn = () => {
       .then((result) => {
         const user = result.user;
         axios
-          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .post("https://restaurant-server-side-sigma.vercel.app/jwt", user, {
+            withCredentials: true,
+          })
           .then((res) => {
             console.log(res.data);
             Swal.fire({
@@ -57,11 +59,13 @@ const LogIn = () => {
   const handleGoogleLogIn = (e) => {
     e.preventDefault();
 
-       googleLogIn()
+    googleLogIn()
       .then((result) => {
         const user = result.user;
         axios
-          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .post("https://restaurant-server-side-sigma.vercel.app/jwt", user, {
+            withCredentials: true,
+          })
           .then((res) => {
             console.log(res.data);
             Swal.fire({

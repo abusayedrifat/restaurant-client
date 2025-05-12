@@ -14,7 +14,7 @@ const Register = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const { createUser,googleLogIn,logOut } = useContext(AuthContext);
+  const { createUser, googleLogIn, logOut } = useContext(AuthContext);
   const [showPssword, handleShowPasssword] = useState(false);
   const navigate = useNavigate();
 
@@ -32,15 +32,13 @@ const Register = () => {
           draggable: true,
         });
 
-      logOut(auth)
-      .then((result) =>{
-        navigate("/logIn");
-        form.reset();
-        console.log(result)
-      })
-      .catch((error) => console.log(error.message));
-
-        
+        logOut(auth)
+          .then((result) => {
+            navigate("/logIn");
+            form.reset();
+            console.log(result);
+          })
+          .catch((error) => console.log(error.message));
       })
       .catch((error) => {
         console.log(error.message);
@@ -48,13 +46,15 @@ const Register = () => {
   };
 
   const handleGoogleLogIn = (e) => {
-      e.preventDefault();
-      
-          googleLogIn()
+    e.preventDefault();
+
+    googleLogIn()
       .then((result) => {
         const user = result.user;
         axios
-          .post("http://localhost:5000/jwt", user, { withCredentials: true })
+          .post("https://restaurant-server-side-sigma.vercel.app/jwt", user, {
+            withCredentials: true,
+          })
           .then((res) => {
             console.log(res.data);
             Swal.fire({
@@ -76,7 +76,7 @@ const Register = () => {
         });
         console.log(error.message);
       });
-    };
+  };
 
   const handlePassword = (e) => {
     const password = e.target.value;
@@ -183,11 +183,14 @@ const Register = () => {
       </form>
       <p className="font-semibold text-lg my-5">
         Already have an account? Please{" "}
-        <NavLink to={"/logIn"} className="font-bold underline text-blue-600 italic">
+        <NavLink
+          to={"/logIn"}
+          className="font-bold underline text-blue-600 italic"
+        >
           LogIn
         </NavLink>
       </p>
-       <div className="flex items-center text-[#2e2e2e8c]">
+      <div className="flex items-center text-[#2e2e2e8c]">
         <hr className="border w-36 md:w-52" />
         <span className="px-4 text-[#2e2e2e] text-xl"> Or</span>
         <hr className="border w-36 md:w-52" />
