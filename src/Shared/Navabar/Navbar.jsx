@@ -59,9 +59,9 @@ const Navbar = () => {
                 {navbar}
               </ul>
             </div>
-            <p className="text-[#c9b99d] hidden md:block">
-              <img src="./restaurant.png" alt="" className=" w-16" />
-              <span className="text-white">Vojon Bari</span>
+            <p className="text-[#c9b99d]  hidden md:block ">
+              <img src="./restaurant.png" alt="" className="ml-3 w-16" />
+              <span className="text-white">VOJON BARI</span>
             </p>
           </div>
           <div className="navbar-center hidden lg:flex">

@@ -2,6 +2,7 @@ import axios from "axios";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
 import { MdModeEdit } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const MyFoods = () => {
    const {user} = useContext(AuthContext)
@@ -49,10 +50,12 @@ const MyFoods = () => {
           </p>
         </div>
       
-     
-          <button className="btn w-full align-bottom mt-10 mb-2 buttonPrimary rounded-full scale-90 group-hover:scale-95 transition-transform duration-300">
+     <Link to='/updateMyFood'>
+     <button className="btn w-full align-bottom mt-10 mb-2 buttonPrimary rounded-full scale-90 group-hover:scale-95 transition-transform duration-300">
             Update <MdModeEdit></MdModeEdit>
           </button>
+     </Link>
+          
        
       </div>
       )}

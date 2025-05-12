@@ -25,7 +25,7 @@ const AddFood = () => {
     console.log(data);
   };
   return (
-    <div className="flex flex-col justify-center items-center mx-auto text-[#302e2d] ">
+    <div className="flex flex-col justify-center items-center mx-auto text-[#302e2d] mb-32 ">
       <h1 className="mt-10 lg:mt-16 mb-6 text-4xl md:text-5xl lg:text-5xl font-bold">
         Add Your Food
       </h1>
