@@ -11,7 +11,8 @@ const MyFoods = () => {
   const url = `https://restaurant-server-side-sigma.vercel.app/purchasingSingleFoodByUser?email=${user?.email}`;
 
   useEffect(() => {
-    axios.get(url, { withCredentials: true }).then((res) => {
+    axios.get(url, { withCredentials: true })
+    .then((res) => {
       console.log(res.data);
       setMyPurchasedFood(res.data);
     });

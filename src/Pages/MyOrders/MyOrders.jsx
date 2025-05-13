@@ -31,8 +31,9 @@ const MyOrders = () => {
   };
 
   return (
-    <div className="max-w-3/5 mx-auto min-h-screen">
-      <div className="overflow-x-auto pt-20">
+    <div className="max-w-3/5 mx-auto min-h-screen pb-32">
+      <h2 className="text-2xl font-bold md:text-5xl text-center mt-20">My Orders</h2>
+      <div className="overflow-x-auto pt-14">
         <table className="table">
           {/* head */}
           <thead>

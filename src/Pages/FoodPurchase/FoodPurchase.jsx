@@ -47,7 +47,7 @@ const FoodPurchase = () => {
     } else {
       axios
         .post(
-          "https://restaurant-server-side-sigma.vercel.app/purchasingSingleFoodByUser",
+          "https://restaurant-server-side-sigma.vercel.app/purchasingSingleFoodByUser/",
           purchasingInfo
         )
         .then((result) => {

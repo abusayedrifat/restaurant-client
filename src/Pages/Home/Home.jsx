@@ -37,7 +37,7 @@ const Home = () => {
             <FoodCard foodCard={foodCard}></FoodCard>
           ))}
         </div>
-        <Link to="/al">
+        <Link to="/allFoods">
           <button className="btn buttonPrimary rounded-full my-24">
             See All Foods
           </button>
