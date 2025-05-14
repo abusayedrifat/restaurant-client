@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import  {Link, useLoaderData}  from "react-router-dom";
 
 
@@ -5,6 +6,10 @@ const SingleFood = () => {
   const singleFoodData = useLoaderData();
   const { foodName, imgURL, description, price, purchased, rating, country, _id } =
     singleFoodData;
+
+    useEffect(()=>{
+      window.scroll(0,0)
+    },[])
   return (
     <div className="flex flex-col md:flex-row justify-between gap-10 lg:gap-20 max-w-[1400px] mx-auto text-[#2e2e2e] px-6 py-20 ">
       <div className="lg:w-1/2 border-4 border-dashed border-[#b9400354] rounded-4xl">

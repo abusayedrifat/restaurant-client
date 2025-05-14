@@ -30,6 +30,10 @@ const MyOrders = () => {
       });
   };
 
+  useEffect(()=>{
+      window.scroll(0,0)
+    },[])
+    
   return (
     <div className="max-w-3/5 mx-auto min-h-screen pb-32">
       <h2 className="text-2xl font-bold md:text-5xl text-center mt-20">My Orders</h2>

@@ -33,8 +33,12 @@ const AllFoods = () => {
   const handleItemsPerpage = (e) => {
     const value = e.target.value;
     setItemsPerPage(value);
-    setCurrentPage(1);
+    setCurrentPage(0);
   };
+
+  useEffect(()=>{
+      window.scroll(0,0)
+    },[])
 
   return (
     <div className="max-w-5/6 mx-auto py-20 flex flex-col  items-center">

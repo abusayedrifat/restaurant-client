@@ -21,6 +21,10 @@ const Home = () => {
   }, []);
 
   console.log(foodData.length);
+  
+  useEffect(()=>{
+      window.scroll(0,0)
+    },[])
 
   return (
     <div className="max-w-[1540px] mx-auto pb-28">

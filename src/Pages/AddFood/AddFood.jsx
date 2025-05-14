@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../../Components/AuthProvider/AuthProvider";
@@ -23,6 +23,11 @@ const AddFood = () => {
       });
     console.log(data);
   };
+
+  useEffect(()=>{
+        window.scroll(0,0)
+      },[])
+      
   return (
     <div className="flex flex-col justify-center items-center mx-auto text-[#302e2d] mb-32 ">
       <h1 className="mt-10 lg:mt-16 mb-6 text-4xl md:text-5xl lg:text-5xl font-bold">
